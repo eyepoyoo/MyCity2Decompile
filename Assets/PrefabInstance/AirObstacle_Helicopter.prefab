@@ -1,0 +1,550 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1131023972934383}
+  m_IsPrefabParent: 1
+--- !u!1 &1131023972934383
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4830976273496366}
+  - component: {fileID: 114414258768688043}
+  - component: {fileID: 65684935564414227}
+  - component: {fileID: 65558315465282316}
+  m_Layer: 11
+  m_Name: AirObstacle_Helicopter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830976273496366
+Transform:
+  m_GameObject: {fileID: 1131023972934383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 119.4406, y: -3.050764, z: -62.39643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4230391098053486}
+  - {fileID: 4288484624156495}
+  - {fileID: 4144285068667578}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114414258768688043
+MonoBehaviour:
+  m_GameObject: {fileID: 1131023972934383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6381801cf9090d4c8a3d0960b8c079c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65684935564414227
+BoxCollider:
+  m_GameObject: {fileID: 1131023972934383}
+  m_Material: {fileID: 13400000, guid: 9be78283556e2984db2c833fad7968c0, type: 2}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.31, y: 3.239651, z: 4.840297}
+  m_Center: {x: 0, y: 0.8728828, z: -0.2149048}
+--- !u!65 &65558315465282316
+BoxCollider:
+  m_GameObject: {fileID: 1131023972934383}
+  m_Material: {fileID: 13400000, guid: 9be78283556e2984db2c833fad7968c0, type: 2}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.17, y: 1.048401, z: 3.485382}
+  m_Center: {x: 0, y: 1.968506, z: -4.296997}
+--- !u!1 &1936254046773824
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4230391098053486}
+  m_Layer: 11
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230391098053486
+Transform:
+  m_GameObject: {fileID: 1936254046773824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4063147728028855}
+  m_Father: {fileID: 4830976273496366}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1962505144288403
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4063147728028855}
+  m_Layer: 11
+  m_Name: GenericHelicopter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4063147728028855
+Transform:
+  m_GameObject: {fileID: 1962505144288403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4106759687045421}
+  - {fileID: 4881467023858274}
+  - {fileID: 4094454765645573}
+  m_Father: {fileID: 4230391098053486}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1162484612034855
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4106759687045421}
+  - component: {fileID: 33838017302429378}
+  - component: {fileID: 23285147109835473}
+  - component: {fileID: 114654665998534947}
+  m_Layer: 11
+  m_Name: PoliceHelicopterBody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4106759687045421
+Transform:
+  m_GameObject: {fileID: 1162484612034855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 4862186998745032}
+  m_Father: {fileID: 4063147728028855}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33838017302429378
+MeshFilter:
+  m_GameObject: {fileID: 1162484612034855}
+  m_Mesh: {fileID: 4300000, guid: 4483666aad2b92840ba095efb3587e20, type: 2}
+--- !u!23 &23285147109835473
+MeshRenderer:
+  m_GameObject: {fileID: 1162484612034855}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114654665998534947
+MonoBehaviour:
+  m_GameObject: {fileID: 1162484612034855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60784ad5bf22f8444acb7b4bbce563bf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1541846517408339
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4862186998745032}
+  - component: {fileID: 33940790486298744}
+  - component: {fileID: 23445495483142232}
+  m_Layer: 11
+  m_Name: jetSkiStaticMinifig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4862186998745032
+Transform:
+  m_GameObject: {fileID: 1541846517408339}
+  m_LocalRotation: {x: 0, y: 0.7071071, z: 0, w: 0.7071066}
+  m_LocalPosition: {x: -0.004577637, y: 114.2, z: 108}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 4106759687045421}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -89.99996, z: 0}
+--- !u!33 &33940790486298744
+MeshFilter:
+  m_GameObject: {fileID: 1541846517408339}
+  m_Mesh: {fileID: 4300000, guid: bdbdfc647010eb94cac5f33ead836117, type: 2}
+--- !u!23 &23445495483142232
+MeshRenderer:
+  m_GameObject: {fileID: 1541846517408339}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 16281f833c11eaf498814b7edd4cce0b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1580228556409955
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4881467023858274}
+  - component: {fileID: 33662284434387714}
+  - component: {fileID: 23843706918627560}
+  m_Layer: 11
+  m_Name: PoliceHelicopterBodyTransparents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4881467023858274
+Transform:
+  m_GameObject: {fileID: 1580228556409955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4063147728028855}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33662284434387714
+MeshFilter:
+  m_GameObject: {fileID: 1580228556409955}
+  m_Mesh: {fileID: 4300000, guid: f2eb9f44c2f7f0340b9fe9f0682442d6, type: 2}
+--- !u!23 &23843706918627560
+MeshRenderer:
+  m_GameObject: {fileID: 1580228556409955}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d57c25b93e08f541b598ef8ff27d87e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1199399661030253
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4094454765645573}
+  - component: {fileID: 33790084097912376}
+  - component: {fileID: 23539062420126132}
+  - component: {fileID: 111635852679998544}
+  m_Layer: 11
+  m_Name: PoliceHelicopterRearBlades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4094454765645573
+Transform:
+  m_GameObject: {fileID: 1199399661030253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9516048, y: 1.830256, z: -4.93359}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4063147728028855}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33790084097912376
+MeshFilter:
+  m_GameObject: {fileID: 1199399661030253}
+  m_Mesh: {fileID: 4300000, guid: 64c6c9eb775ab6f4ea329f49fbc3104d, type: 2}
+--- !u!23 &23539062420126132
+MeshRenderer:
+  m_GameObject: {fileID: 1199399661030253}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111635852679998544
+Animation:
+  m_GameObject: {fileID: 1199399661030253}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: ca9150de9969a9a4c8b0dd4acf8c96ca, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1061024524701558
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4288484624156495}
+  m_Layer: 11
+  m_Name: FacePos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4288484624156495
+Transform:
+  m_GameObject: {fileID: 1061024524701558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.34, z: 0.776}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4830976273496366}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1677227547122319
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4144285068667578}
+  m_Layer: 11
+  m_Name: PoliceHellicopterTopBladesSmall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4144285068667578
+Transform:
+  m_GameObject: {fileID: 1677227547122319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.434998, z: -0.7620001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4109702171672902}
+  - {fileID: 4790806344224135}
+  m_Father: {fileID: 4830976273496366}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1550296507169958
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4109702171672902}
+  - component: {fileID: 33973983893097674}
+  - component: {fileID: 23857575091034542}
+  - component: {fileID: 111718648293973216}
+  m_Layer: 11
+  m_Name: SmallPoliceHelicopterBlades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4109702171672902
+Transform:
+  m_GameObject: {fileID: 1550296507169958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.998401E-14, z: 2.520761E-13}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4144285068667578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33973983893097674
+MeshFilter:
+  m_GameObject: {fileID: 1550296507169958}
+  m_Mesh: {fileID: 4300000, guid: ac560cef18fb1864a91f8af41f04e7eb, type: 2}
+--- !u!23 &23857575091034542
+MeshRenderer:
+  m_GameObject: {fileID: 1550296507169958}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111718648293973216
+Animation:
+  m_GameObject: {fileID: 1550296507169958}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 2306e16fb21313c4ea8067d05baf7eeb, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1328792212456667
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4790806344224135}
+  - component: {fileID: 33737714821696222}
+  - component: {fileID: 23862148157696433}
+  m_Layer: 11
+  m_Name: SmallPoliceHelicopterBladesBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4790806344224135
+Transform:
+  m_GameObject: {fileID: 1328792212456667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.998401E-14, z: -2.775558E-16}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4144285068667578}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33737714821696222
+MeshFilter:
+  m_GameObject: {fileID: 1328792212456667}
+  m_Mesh: {fileID: 4300000, guid: b92f30bc4a05c65498e9753ee2cb280e, type: 2}
+--- !u!23 &23862148157696433
+MeshRenderer:
+  m_GameObject: {fileID: 1328792212456667}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

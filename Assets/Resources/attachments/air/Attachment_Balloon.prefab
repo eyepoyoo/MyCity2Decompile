@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1700238074789152}
+  m_IsPrefabParent: 1
+--- !u!1 &1700238074789152
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4276319818593594}
+  - component: {fileID: 114185078650123234}
+  - component: {fileID: 114848008923340438}
+  - component: {fileID: 135596664671340999}
+  - component: {fileID: 65530490270929413}
+  m_Layer: 17
+  m_Name: Attachment_Balloon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4276319818593594
+Transform:
+  m_GameObject: {fileID: 1700238074789152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4816613197191419}
+  - {fileID: 4385470225470121}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114185078650123234
+MonoBehaviour:
+  m_GameObject: {fileID: 1700238074789152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b90c45960debb4cb38c43afa2e6b33, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114848008923340438
+MonoBehaviour:
+  m_GameObject: {fileID: 1700238074789152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a47912950eeef4ebe12f7222720c5c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!135 &135596664671340999
+SphereCollider:
+  m_GameObject: {fileID: 1700238074789152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.986956
+  m_Center: {x: 0, y: 4.17, z: 0}
+--- !u!65 &65530490270929413
+BoxCollider:
+  m_GameObject: {fileID: 1700238074789152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8, y: 2.442297, z: 1.8}
+  m_Center: {x: 0, y: 1.19115, z: 0}
+--- !u!1 &1980570225175044
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4816613197191419}
+  m_Layer: 17
+  m_Name: PoliceBallooonTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816613197191419
+Transform:
+  m_GameObject: {fileID: 1980570225175044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4903813007450040}
+  - {fileID: 4162604621596486}
+  m_Father: {fileID: 4276319818593594}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1167627366419956
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4903813007450040}
+  - component: {fileID: 33266461949205063}
+  - component: {fileID: 23212936810912543}
+  m_Layer: 17
+  m_Name: PoliceBalloonTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4903813007450040
+Transform:
+  m_GameObject: {fileID: 1167627366419956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4816613197191419}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33266461949205063
+MeshFilter:
+  m_GameObject: {fileID: 1167627366419956}
+  m_Mesh: {fileID: 4300000, guid: c772e4c870746a642aa7f27de93d118d, type: 2}
+--- !u!23 &23212936810912543
+MeshRenderer:
+  m_GameObject: {fileID: 1167627366419956}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1090412913183992
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4162604621596486}
+  - component: {fileID: 33340649596029197}
+  - component: {fileID: 23454214053837400}
+  m_Layer: 17
+  m_Name: PoliceBalloonTop_Decals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4162604621596486
+Transform:
+  m_GameObject: {fileID: 1090412913183992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4816613197191419}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33340649596029197
+MeshFilter:
+  m_GameObject: {fileID: 1090412913183992}
+  m_Mesh: {fileID: 4300000, guid: 6ca9c10772007e44688aa43e1dce2eea, type: 2}
+--- !u!23 &23454214053837400
+MeshRenderer:
+  m_GameObject: {fileID: 1090412913183992}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9199ff19e5ffccb4eaf95ab2bca775f0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1132422972051332
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4385470225470121}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4385470225470121
+Transform:
+  m_GameObject: {fileID: 1132422972051332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.98, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4276319818593594}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

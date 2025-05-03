@@ -1,0 +1,62 @@
+[	
+	{ 
+		"uniqueId":"FA0AE72D-7F8F-5AE1-BD35-4E5D1D5CE6EA",
+		"name" : "Kay",
+		"position" : "1",
+		"score" : "10000"
+	},
+	{
+		"uniqueId":"8F56AAEE-6388-E517-5AA2-2DF59A7A5EE3",
+		"name" : "Andy",
+		"position" : "2",
+		"score" : "9000"
+	},
+	{
+		"uniqueId":"2C07A335-FDBD-808D-99E9-05599DAC1F0A",
+		"name" : "Bob",
+		"position" : "3",
+		"score" : "8000"
+	},
+	{
+		"uniqueId":"FFEE64C4-20B8-14B1-18AF-F5CDCE6324ED",
+		"name" : "Karsten",
+		"position" : "4",
+		"score" : "7000"
+	},	
+	{
+		"uniqueId":"08308F5C-F8EC-7426-1DBC-0928B9813FED",
+		"name" : "Dave",
+		"position" : "5",
+		"score" : "6000"
+	},
+	{
+		"uniqueId":"5B0548E3-6FED-3EF9-A9AB-5E0C2CFD1FA2",
+		"name" : "Callum",
+		"position" : "6",
+		"score" : "5000"
+	},
+	{
+		"uniqueId":"82F11949-1B70-94BC-5470-2ECCEB389C1F",
+		"name" : "George",
+		"position" : "7",
+		"score" : "4000"
+	},
+	{
+		"uniqueId":"4F038F8C-9517-95CD-FFCC-D69D7029D98D",
+		"name" : "Dan",
+		"position" : "8",
+		"score" : "3000"
+	},	
+	{
+		"uniqueId":"07C7D6B2-6700-D9C8-16AF-707186868603",
+		"name" : "Jay",
+		"position" : "9",
+		"score" : "2000"
+	},	
+	{
+		"uniqueId":"B2F78879-B0CA-3B10-65EE-C1B5D0A3B4E5",
+		"name" : "Colin",
+		"position" : "10",
+		"score" : "1000"
+	}
+]	

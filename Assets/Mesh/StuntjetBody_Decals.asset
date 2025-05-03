@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: StuntjetBody_Decals
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 54
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 28
+    localAABB:
+      m_Center: {x: 0.4763565, y: 173.7055, z: -83.73268}
+      m_Extent: {x: 76.7549, y: 97.93359, z: 405.9232}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 3
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 84
+      m_Range: 811.8464
+      m_Start: -489.6559
+      m_Data: 70620e009c8e670227d799c089350070fe0e079cbfcf00a7c971c069b20961620e409858031026d79984e9782661fe0e4798bfcf10a6c9718469b20909fafb7f82fe329da0b34c27e8ecffcafafbbfb2cefeafacb34c2beb2fd339e27b7ea6f89e9f29b2e7e788ecf9
+      m_BitSize: 10
+    m_UV:
+      m_NumItems: 56
+      m_Range: 0.9918704
+      m_Start: 0.002550186
+      m_Data: 4190ff83ff464140ccc180c1ce027102ff90ff404146418373c1c0c17202cf02030003ce3ace3a0003003a003ace03cefec387c387fefefe
+      m_BitSize: 8
+    m_Normals:
+      m_NumItems: 56
+      m_Range: 1.999748
+      m_Start: -0.999874
+      m_Data: 3ff8833ff8833ff8833ff8830008800008800008800008800008800008803ff8833ff883200882200882
+      m_BitSize: 6
+    m_Tangents:
+      m_NumItems: 56
+      m_Range: 1.000985
+      m_Start: -0.9999995
+      m_Data: ffffffffffffffffffffffffffffffffffffffffffffffff3ff0033ff0033ff0033ff003c00ffcc00ffc
+      m_BitSize: 6
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 28
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 56
+      m_Data: 5555000000aa00
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 54
+      m_Data: 20082006098080328419e6a0a4905a0c2dd650722a3d07a38472d26aa9bd386bac37
+      m_BitSize: 5
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 0.4763565, y: 173.7055, z: -83.73268}
+    m_Extent: {x: 76.7549, y: 97.93359, z: 405.9232}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

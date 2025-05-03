@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1453490313834050}
+  m_IsPrefabParent: 1
+--- !u!1 &1453490313834050
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4308160939406120}
+  - component: {fileID: 114919024677592337}
+  - component: {fileID: 65610294759962356}
+  - component: {fileID: 114576299952884173}
+  m_Layer: 17
+  m_Name: Attachment_LargeFireBoatBridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4308160939406120
+Transform:
+  m_GameObject: {fileID: 1453490313834050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4199575461462007}
+  - {fileID: 4941586883552722}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114919024677592337
+MonoBehaviour:
+  m_GameObject: {fileID: 1453490313834050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b90c45960debb4cb38c43afa2e6b33, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65610294759962356
+BoxCollider:
+  m_GameObject: {fileID: 1453490313834050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.28, y: 4.16, z: 4.49}
+  m_Center: {x: 0, y: 2.23, z: -0.53}
+--- !u!114 &114576299952884173
+MonoBehaviour:
+  m_GameObject: {fileID: 1453490313834050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da99a9dfdaffdf6449776c2300ed49aa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1852507987806416
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4199575461462007}
+  m_Layer: 17
+  m_Name: FireBoatCabin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4199575461462007
+Transform:
+  m_GameObject: {fileID: 1852507987806416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4683896538091243}
+  - {fileID: 4584405586717714}
+  - {fileID: 4831596627934228}
+  m_Father: {fileID: 4308160939406120}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1318169288352829
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4683896538091243}
+  - component: {fileID: 33476199148703286}
+  - component: {fileID: 23972434037234258}
+  m_Layer: 17
+  m_Name: FireBoatCabin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4683896538091243
+Transform:
+  m_GameObject: {fileID: 1318169288352829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4199575461462007}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33476199148703286
+MeshFilter:
+  m_GameObject: {fileID: 1318169288352829}
+  m_Mesh: {fileID: 4300000, guid: 7d0f90c0085ba074a8750760cbeb7c32, type: 2}
+--- !u!23 &23972434037234258
+MeshRenderer:
+  m_GameObject: {fileID: 1318169288352829}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1166674930824202
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4584405586717714}
+  - component: {fileID: 33057189947125830}
+  - component: {fileID: 23438079405055721}
+  m_Layer: 17
+  m_Name: FireBoatCabinDecals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4584405586717714
+Transform:
+  m_GameObject: {fileID: 1166674930824202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03622141, y: -0.03278917, z: -0.01337875}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4199575461462007}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33057189947125830
+MeshFilter:
+  m_GameObject: {fileID: 1166674930824202}
+  m_Mesh: {fileID: 4300000, guid: ca166c0e121c5164a800efabbfb4f249, type: 2}
+--- !u!23 &23438079405055721
+MeshRenderer:
+  m_GameObject: {fileID: 1166674930824202}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fd962c90623f26a4899e76b575ff3272, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1458150362885745
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4831596627934228}
+  - component: {fileID: 33533967516454302}
+  - component: {fileID: 23998687391667893}
+  m_Layer: 17
+  m_Name: FireBoatCabinTransparents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4831596627934228
+Transform:
+  m_GameObject: {fileID: 1458150362885745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03622141, y: -0.03278917, z: -0.01337875}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4199575461462007}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33533967516454302
+MeshFilter:
+  m_GameObject: {fileID: 1458150362885745}
+  m_Mesh: {fileID: 4300000, guid: 685372f0743ca5a4498e8ac639a625fd, type: 2}
+--- !u!23 &23998687391667893
+MeshRenderer:
+  m_GameObject: {fileID: 1458150362885745}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d57c25b93e08f541b598ef8ff27d87e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1476095079850530
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4941586883552722}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4941586883552722
+Transform:
+  m_GameObject: {fileID: 1476095079850530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.37, z: -0.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4308160939406120}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

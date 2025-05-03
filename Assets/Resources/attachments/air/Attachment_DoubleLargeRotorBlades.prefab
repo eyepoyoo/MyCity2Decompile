@@ -1,0 +1,689 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1754049359097710}
+  m_IsPrefabParent: 1
+--- !u!1 &1754049359097710
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4217731419698390}
+  - component: {fileID: 114372995142076113}
+  - component: {fileID: 114761701718274028}
+  m_Layer: 17
+  m_Name: Attachment_DoubleLargeRotorBlades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4217731419698390
+Transform:
+  m_GameObject: {fileID: 1754049359097710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 160.1412, y: 44.58094, z: -8.366108}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4798748499366655}
+  - {fileID: 4871372002480929}
+  - {fileID: 4448951328612770}
+  - {fileID: 4120535078842297}
+  - {fileID: 4987023437671005}
+  - {fileID: 4047732612209625}
+  - {fileID: 4114936792941999}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114372995142076113
+MonoBehaviour:
+  m_GameObject: {fileID: 1754049359097710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b90c45960debb4cb38c43afa2e6b33, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114761701718274028
+MonoBehaviour:
+  m_GameObject: {fileID: 1754049359097710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a47912950eeef4ebe12f7222720c5c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1492519662092408
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4798748499366655}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4798748499366655
+Transform:
+  m_GameObject: {fileID: 1492519662092408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.77, z: -0.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4217731419698390}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1802014201619193
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4871372002480929}
+  - component: {fileID: 64452332511255255}
+  m_Layer: 17
+  m_Name: Collider_Blades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4871372002480929
+Transform:
+  m_GameObject: {fileID: 1802014201619193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.091, z: 0.341}
+  m_LocalScale: {x: 0.009840319, y: 0.008932396, z: 0.009840314}
+  m_Children: []
+  m_Father: {fileID: 4217731419698390}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &64452332511255255
+MeshCollider:
+  m_GameObject: {fileID: 1802014201619193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 16b7736f03ec1f04dbcf2a13bca91085, type: 2}
+--- !u!1 &1205857571628151
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4448951328612770}
+  - component: {fileID: 65492762511131977}
+  m_Layer: 17
+  m_Name: Collider_Centre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4448951328612770
+Transform:
+  m_GameObject: {fileID: 1205857571628151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.131, z: 0.341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4217731419698390}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65492762511131977
+BoxCollider:
+  m_GameObject: {fileID: 1205857571628151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.18, y: 1.477823, z: 1.18}
+  m_Center: {x: 0, y: 0.7089114, z: 0}
+--- !u!1 &1441333819512280
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4120535078842297}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotorBladesFront
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120535078842297
+Transform:
+  m_GameObject: {fileID: 1441333819512280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4539414698628511}
+  - {fileID: 4346436446213453}
+  m_Father: {fileID: 4217731419698390}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1032591181936270
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4539414698628511}
+  - component: {fileID: 111351038887726412}
+  m_Layer: 17
+  m_Name: Spin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4539414698628511
+Transform:
+  m_GameObject: {fileID: 1032591181936270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4154577768833166}
+  - {fileID: 4501144411275237}
+  m_Father: {fileID: 4120535078842297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111351038887726412
+Animation:
+  m_GameObject: {fileID: 1032591181936270}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: b734b4c66fe084e4183f20b10801faa1, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1657662670794735
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4154577768833166}
+  - component: {fileID: 33584224737680037}
+  - component: {fileID: 23800286737385272}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotarBlades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4154577768833166
+Transform:
+  m_GameObject: {fileID: 1657662670794735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4539414698628511}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33584224737680037
+MeshFilter:
+  m_GameObject: {fileID: 1657662670794735}
+  m_Mesh: {fileID: 4300000, guid: 6bbd01b047c8f4941bf581b047f3109b, type: 2}
+--- !u!23 &23800286737385272
+MeshRenderer:
+  m_GameObject: {fileID: 1657662670794735}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1776377026499816
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4501144411275237}
+  - component: {fileID: 33574263785878921}
+  - component: {fileID: 23305616655390163}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotarBladesDecals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4501144411275237
+Transform:
+  m_GameObject: {fileID: 1776377026499816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4539414698628511}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33574263785878921
+MeshFilter:
+  m_GameObject: {fileID: 1776377026499816}
+  m_Mesh: {fileID: 4300000, guid: 8551dcb99253766439de205989303b60, type: 2}
+--- !u!23 &23305616655390163
+MeshRenderer:
+  m_GameObject: {fileID: 1776377026499816}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e5d09664323523f4096c3032768e12dd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1570306839604995
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4346436446213453}
+  - component: {fileID: 33319644672063842}
+  - component: {fileID: 23241143102266508}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotarBladesBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346436446213453
+Transform:
+  m_GameObject: {fileID: 1570306839604995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4120535078842297}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33319644672063842
+MeshFilter:
+  m_GameObject: {fileID: 1570306839604995}
+  m_Mesh: {fileID: 4300000, guid: dc277cd28491c9349a55df567fda237f, type: 2}
+--- !u!23 &23241143102266508
+MeshRenderer:
+  m_GameObject: {fileID: 1570306839604995}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1781221736515206
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4987023437671005}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotorBladesRear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4987023437671005
+Transform:
+  m_GameObject: {fileID: 1781221736515206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.907, z: -9.867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4511018221637720}
+  - {fileID: 4865258546778036}
+  m_Father: {fileID: 4217731419698390}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1832264999298994
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4511018221637720}
+  - component: {fileID: 111201482074009811}
+  m_Layer: 17
+  m_Name: Spin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4511018221637720
+Transform:
+  m_GameObject: {fileID: 1832264999298994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4990521977944772}
+  - {fileID: 4348801375591290}
+  m_Father: {fileID: 4987023437671005}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111201482074009811
+Animation:
+  m_GameObject: {fileID: 1832264999298994}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: b734b4c66fe084e4183f20b10801faa1, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1567813743971607
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4990521977944772}
+  - component: {fileID: 33895547942991155}
+  - component: {fileID: 23518476984211155}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotarBlades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4990521977944772
+Transform:
+  m_GameObject: {fileID: 1567813743971607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4511018221637720}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33895547942991155
+MeshFilter:
+  m_GameObject: {fileID: 1567813743971607}
+  m_Mesh: {fileID: 4300000, guid: 6bbd01b047c8f4941bf581b047f3109b, type: 2}
+--- !u!23 &23518476984211155
+MeshRenderer:
+  m_GameObject: {fileID: 1567813743971607}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1768232312537181
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4348801375591290}
+  - component: {fileID: 33086026034311912}
+  - component: {fileID: 23159543964631017}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotarBladesDecals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4348801375591290
+Transform:
+  m_GameObject: {fileID: 1768232312537181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4511018221637720}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33086026034311912
+MeshFilter:
+  m_GameObject: {fileID: 1768232312537181}
+  m_Mesh: {fileID: 4300000, guid: 8551dcb99253766439de205989303b60, type: 2}
+--- !u!23 &23159543964631017
+MeshRenderer:
+  m_GameObject: {fileID: 1768232312537181}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e5d09664323523f4096c3032768e12dd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1019929896964733
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4865258546778036}
+  - component: {fileID: 33442203791993324}
+  - component: {fileID: 23909396564713340}
+  m_Layer: 17
+  m_Name: VolcanoChinookLargeRotarBladesBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4865258546778036
+Transform:
+  m_GameObject: {fileID: 1019929896964733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4987023437671005}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33442203791993324
+MeshFilter:
+  m_GameObject: {fileID: 1019929896964733}
+  m_Mesh: {fileID: 4300000, guid: dc277cd28491c9349a55df567fda237f, type: 2}
+--- !u!23 &23909396564713340
+MeshRenderer:
+  m_GameObject: {fileID: 1019929896964733}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1053125394329584
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4047732612209625}
+  - component: {fileID: 64421460433279238}
+  m_Layer: 17
+  m_Name: Collider_Blades_Rear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4047732612209625
+Transform:
+  m_GameObject: {fileID: 1053125394329584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.081, z: -9.662}
+  m_LocalScale: {x: 0.009840319, y: 0.008932396, z: 0.009840314}
+  m_Children: []
+  m_Father: {fileID: 4217731419698390}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &64421460433279238
+MeshCollider:
+  m_GameObject: {fileID: 1053125394329584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 16b7736f03ec1f04dbcf2a13bca91085, type: 2}
+--- !u!1 &1484115719519546
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4114936792941999}
+  - component: {fileID: 65898257496503315}
+  m_Layer: 17
+  m_Name: Collider_Centre_Rear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4114936792941999
+Transform:
+  m_GameObject: {fileID: 1484115719519546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.961, z: -9.662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4217731419698390}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65898257496503315
+BoxCollider:
+  m_GameObject: {fileID: 1484115719519546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.18, y: 1.477823, z: 1.18}
+  m_Center: {x: 0, y: 0.7089114, z: 0}

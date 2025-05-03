@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1442108603226281}
+  m_IsPrefabParent: 1
+--- !u!1 &1442108603226281
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4531055040397897}
+  - component: {fileID: 114909672894102623}
+  - component: {fileID: 65576399697426130}
+  - component: {fileID: 114878813943502007}
+  m_Layer: 17
+  m_Name: SpecialAbility_MiniDiggerArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4531055040397897
+Transform:
+  m_GameObject: {fileID: 1442108603226281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4206341393885940}
+  - {fileID: 4119175382400835}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114909672894102623
+MonoBehaviour:
+  m_GameObject: {fileID: 1442108603226281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b90c45960debb4cb38c43afa2e6b33, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65576399697426130
+BoxCollider:
+  m_GameObject: {fileID: 1442108603226281}
+  m_Material: {fileID: 13400000, guid: fb6a17b0e8dc82c44ad1683c93903697, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.51, y: 4.058266, z: 4.304382}
+  m_Center: {x: 0, y: 2.012478, z: 0.86}
+--- !u!114 &114878813943502007
+MonoBehaviour:
+  m_GameObject: {fileID: 1442108603226281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b350c2e058d7c64984bdce860982f35, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1396455745526625
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4206341393885940}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206341393885940
+Transform:
+  m_GameObject: {fileID: 1396455745526625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.25, z: 0.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4531055040397897}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1575625525634951
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4119175382400835}
+  - component: {fileID: 95265495624115935}
+  m_Layer: 17
+  m_Name: AnimRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4119175382400835
+Transform:
+  m_GameObject: {fileID: 1575625525634951}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.629207E-07}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4265360091354241}
+  m_Father: {fileID: 4531055040397897}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: 1.866934E-05, z: 180}
+--- !u!95 &95265495624115935
+Animator:
+  serializedVersion: 3
+  m_GameObject: {fileID: 1575625525634951}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5fe8192512648324cbbf335091a1a61e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1235554539499058
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4265360091354241}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265360091354241
+Transform:
+  m_GameObject: {fileID: 1235554539499058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4585928287498565}
+  m_Father: {fileID: 4119175382400835}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1796884264160970
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4585928287498565}
+  - component: {fileID: 33726149215092557}
+  - component: {fileID: 23067439784419975}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessory_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4585928287498565
+Transform:
+  m_GameObject: {fileID: 1796884264160970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 4186025627970458}
+  m_Father: {fileID: 4265360091354241}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33726149215092557
+MeshFilter:
+  m_GameObject: {fileID: 1796884264160970}
+  m_Mesh: {fileID: 4300000, guid: 8cb9833ab1fdd834abaed169aec43e3e, type: 2}
+--- !u!23 &23067439784419975
+MeshRenderer:
+  m_GameObject: {fileID: 1796884264160970}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1781449183067304
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4186025627970458}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessory_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4186025627970458
+Transform:
+  m_GameObject: {fileID: 1781449183067304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 119.9966, z: 94.59534}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4160974051384658}
+  - {fileID: 4393287265796795}
+  - {fileID: 4700075540691397}
+  m_Father: {fileID: 4585928287498565}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1201928643052877
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4160974051384658}
+  - component: {fileID: 33607641145332220}
+  - component: {fileID: 23619840981729138}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4160974051384658
+Transform:
+  m_GameObject: {fileID: 1201928643052877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1737442, y: -0.7395323, z: -0.3488269}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4186025627970458}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33607641145332220
+MeshFilter:
+  m_GameObject: {fileID: 1201928643052877}
+  m_Mesh: {fileID: 4300000, guid: 07264dce7b5d5e24fbf2327222885d9b, type: 2}
+--- !u!23 &23619840981729138
+MeshRenderer:
+  m_GameObject: {fileID: 1201928643052877}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1417873248367866
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4393287265796795}
+  - component: {fileID: 33832824172854515}
+  - component: {fileID: 23917028661898302}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessoryDecals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4393287265796795
+Transform:
+  m_GameObject: {fileID: 1417873248367866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -119.9966, z: -94.59464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4186025627970458}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33832824172854515
+MeshFilter:
+  m_GameObject: {fileID: 1417873248367866}
+  m_Mesh: {fileID: 4300000, guid: 1a136196abe6c684bad6e3bb42af70fa, type: 2}
+--- !u!23 &23917028661898302
+MeshRenderer:
+  m_GameObject: {fileID: 1417873248367866}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0fe501c9b458dac4d844a02b8b8bb24e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1878850191132099
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4700075540691397}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessory_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4700075540691397
+Transform:
+  m_GameObject: {fileID: 1878850191132099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 130.048, z: -316.5039}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4395581545269781}
+  - {fileID: 4286949733062505}
+  - {fileID: 4506415192323098}
+  - {fileID: 4973081626430857}
+  m_Father: {fileID: 4186025627970458}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1092219523510495
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4395581545269781}
+  - component: {fileID: 33124024276810723}
+  - component: {fileID: 23223090016155583}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessory_3 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4395581545269781
+Transform:
+  m_GameObject: {fileID: 1092219523510495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1913452, y: 49.75722, z: 21.60902}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4700075540691397}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33124024276810723
+MeshFilter:
+  m_GameObject: {fileID: 1092219523510495}
+  m_Mesh: {fileID: 4300000, guid: 84ec2959afa2ab741994803adcb6384d, type: 2}
+--- !u!23 &23223090016155583
+MeshRenderer:
+  m_GameObject: {fileID: 1092219523510495}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1902457436419733
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4286949733062505}
+  - component: {fileID: 33002815793235552}
+  - component: {fileID: 23877305774956926}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessoryTransparents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4286949733062505
+Transform:
+  m_GameObject: {fileID: 1902457436419733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1913376, y: 94.37202, z: 19.1683}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4700075540691397}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33002815793235552
+MeshFilter:
+  m_GameObject: {fileID: 1902457436419733}
+  m_Mesh: {fileID: 4300000, guid: f704efdc75987a944bb238f7ab7a9ae2, type: 2}
+--- !u!23 &23877305774956926
+MeshRenderer:
+  m_GameObject: {fileID: 1902457436419733}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d57c25b93e08f541b598ef8ff27d87e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1660206112309165
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4506415192323098}
+  - component: {fileID: 33163310554617864}
+  - component: {fileID: 23820121545908281}
+  m_Layer: 17
+  m_Name: VolcanoMiniDiggerAccessory_Drill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4506415192323098
+Transform:
+  m_GameObject: {fileID: 1660206112309165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.536743E-05, y: 107.3827, z: -0.3005981}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4700075540691397}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33163310554617864
+MeshFilter:
+  m_GameObject: {fileID: 1660206112309165}
+  m_Mesh: {fileID: 4300000, guid: 8ce6686c57069224a8f761ff800a90a4, type: 2}
+--- !u!23 &23820121545908281
+MeshRenderer:
+  m_GameObject: {fileID: 1660206112309165}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1145525659034363
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4973081626430857}
+  m_Layer: 17
+  m_Name: ContactPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4973081626430857
+Transform:
+  m_GameObject: {fileID: 1145525659034363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 106.4, z: 372}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4700075540691397}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

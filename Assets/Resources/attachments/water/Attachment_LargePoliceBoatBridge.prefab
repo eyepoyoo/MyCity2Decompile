@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1066916692192505}
+  m_IsPrefabParent: 1
+--- !u!1 &1066916692192505
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4619679868390979}
+  - component: {fileID: 114964562452821878}
+  - component: {fileID: 65153463705821384}
+  - component: {fileID: 65763041531682845}
+  - component: {fileID: 114972411421516443}
+  m_Layer: 17
+  m_Name: Attachment_LargePoliceBoatBridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4619679868390979
+Transform:
+  m_GameObject: {fileID: 1066916692192505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4875571413983408}
+  - {fileID: 4473827521050208}
+  - {fileID: 4381330359568888}
+  - {fileID: 4732769164682699}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114964562452821878
+MonoBehaviour:
+  m_GameObject: {fileID: 1066916692192505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b90c45960debb4cb38c43afa2e6b33, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65153463705821384
+BoxCollider:
+  m_GameObject: {fileID: 1066916692192505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1.418849, z: 3.740267}
+  m_Center: {x: 0, y: 0.6657875, z: -1.93849}
+--- !u!65 &65763041531682845
+BoxCollider:
+  m_GameObject: {fileID: 1066916692192505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.529144, y: 1.209201, z: 1.205433}
+  m_Center: {x: -0.05297852, y: 1.999911, z: -3.205907}
+--- !u!114 &114972411421516443
+MonoBehaviour:
+  m_GameObject: {fileID: 1066916692192505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da99a9dfdaffdf6449776c2300ed49aa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1592433624748682
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4875571413983408}
+  - component: {fileID: 33335340726598355}
+  - component: {fileID: 23736960385695729}
+  m_Layer: 17
+  m_Name: PoliceBoatCabin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4875571413983408
+Transform:
+  m_GameObject: {fileID: 1592433624748682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.003, z: -1.897}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4619679868390979}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33335340726598355
+MeshFilter:
+  m_GameObject: {fileID: 1592433624748682}
+  m_Mesh: {fileID: 4300000, guid: ee30f2a91a87615468a907bf835fcb8c, type: 2}
+--- !u!23 &23736960385695729
+MeshRenderer:
+  m_GameObject: {fileID: 1592433624748682}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1482963407388714
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4473827521050208}
+  - component: {fileID: 33059499630210289}
+  - component: {fileID: 23592165587330753}
+  m_Layer: 17
+  m_Name: PoliceBoatCabinStickers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4473827521050208
+Transform:
+  m_GameObject: {fileID: 1482963407388714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.003, z: -1.897}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4619679868390979}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33059499630210289
+MeshFilter:
+  m_GameObject: {fileID: 1482963407388714}
+  m_Mesh: {fileID: 4300000, guid: dd35f91de0e4c9d4087c67facead86d7, type: 2}
+--- !u!23 &23592165587330753
+MeshRenderer:
+  m_GameObject: {fileID: 1482963407388714}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c6387e3c0e924ff479035517808a121f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1662539405264029
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4381330359568888}
+  - component: {fileID: 33251953568513590}
+  - component: {fileID: 23803038779056801}
+  m_Layer: 17
+  m_Name: PoliceBoatCabinTransparents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4381330359568888
+Transform:
+  m_GameObject: {fileID: 1662539405264029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.003, z: -1.897}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4619679868390979}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33251953568513590
+MeshFilter:
+  m_GameObject: {fileID: 1662539405264029}
+  m_Mesh: {fileID: 4300000, guid: e054516324212514da2e4ffa66183143, type: 2}
+--- !u!23 &23803038779056801
+MeshRenderer:
+  m_GameObject: {fileID: 1662539405264029}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d57c25b93e08f541b598ef8ff27d87e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1848266977513873
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4732769164682699}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4732769164682699
+Transform:
+  m_GameObject: {fileID: 1848266977513873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.84, z: -1.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4619679868390979}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

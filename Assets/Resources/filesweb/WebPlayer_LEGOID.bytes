@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Amuzo Framework</title>
+  
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	<!--
+	var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+	if (document.location.protocol == 'https:')
+	unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+	document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+	-->
+	</script>
+	
+	<script type="text/javascript">
+	var params = {
+		backgroundcolor: "024E7A",
+		bordercolor: "024E7A",
+		textcolor: "000000",
+		logoimage:  "images/loader.png",
+        progressbarimage: "images/loaderBar_fill.png",
+        progressframeimage: "images/loaderBar_bg.png",
+	    enableDebugging:"0" 
+	};
+	var u = UnityObject2({ width: 1024, height: 768, params: params });
+
+	u.observeProgress(function (progress) {
+		var $missingScreen = jQuery(progress.targetEl).find(".missing");
+		switch(progress.pluginStatus) 
+		{
+			case "unsupported":
+				showUnsupported();
+				break;
+			case "broken":
+				alert("You will need to restart your browser after installation.");
+				break;
+			case "missing":
+				$missingScreen.find("a").click(function (e) {
+					e.stopPropagation();
+					e.preventDefault();
+					u.installPlugin();
+					return false;
+				});
+				$missingScreen.show();
+				break;
+			case "installed":
+				$missingScreen.remove();
+			break;
+				case "first":
+				break;
+		}
+	});
+	jQuery(function() 	{
+		u.initPlugin(jQuery("#unityPlayer")[0], "WebPlayer.unity3d" );
+	});
+
+	window['LEGOIDReady'] = typeof(LEGOIDReady) !== 'undefined' ? LEGOIDReady : [];
+	
+	window['LEGOIDReady'].push(function() {
+		// legoID is ready to roll
+		// we want async
+		LEGOID.API.setAsync(true);
+
+		// and we want to subscribe to when they close modal dialogs
+		LEGOID.API.subscribe( {
+			event: 'modalClose',
+			callback: function(){
+				OnModalClose();
+			},
+			scope: window
+		});
+	});
+
+	var path = 'https://account2.lego.com/Services/Account/LEGO.ID.API.js.ashx';
+
+	(function(d, path) 
+	{
+		var js, ref = d.getElementsByTagName('script')[0];
+		js = d.createElement('script');
+		js.async = true;
+		js.src = path;
+		ref.parentNode.insertBefore(js, ref);
+	} (document, path));
+
+	function SendMessage(name, fn, arg)
+	{
+		u.getUnity().SendMessage(name, fn, arg);
+	}
+
+	function SendLEGOIDMessage(fn, arg)
+	{
+		SendMessage("LEGOID", fn, arg);    
+	}
+	</script>
+
+	<style>
+	<!--
+	div.content {
+		width: 640px;
+		height: 480px;
+		padding: 0px;
+		margin: 0 auto;
+		position: relative;
+	}
+	div.missing {
+		margin: auto;
+		position: relative;
+		width: 193px;
+	}
+    div#LEGOIDBackdrop {
+        position: absolute;
+        width: 640px;
+        height: 480px;
+        background-color: #662222;
+        top: 480px;
+        display: block;
+    }
+	-->
+	</style>    
+</head>
+<body>
+	<div class="content">
+		<div id="unityPlayer">
+			<div class="missing">
+				<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!"><img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" /></a>
+			</div>
+
+            <div id="LEGOIDBackdrop" style="position: absolute; top: 480px"></div>
+            <div id="LEGOIDButtonContainer" style="position:absolute; top:480px"></div>
+
+		</div>
+	</div>
+
+	<script>
+
+        // Helpers
+
+        function OnUnityPlayerLoaded(version)
+        {
+            console.log("version: " + version);
+        }
+
+        function ShowBackdrop()
+        { 
+            var unity = document.getElementById("unityPlayer");
+            var backdrop = document.getElementById("LEGOIDBackdrop");
+            
+            backdrop.style.top = '0px';
+            unity.style.top = '480px';
+            backdrop.focus();
+        }
+
+        function HideBackdrop()
+        {
+            var backdrop = document.getElementById("LEGOIDBackdrop");
+            var unity = document.getElementById("unityPlayer");
+            
+            backdrop.style.top = '480px';
+            unity.style.top = '0px';
+            unity.focus();
+        }
+        
+          
+        function OnAuthenticationChecked( isAuthenticated )
+        {
+        	SendLEGOIDMessage("OnAuthenticationChecked", String(isAuthenticated));
+        }
+        
+        function OnModalClose()
+        {
+        	SendLEGOIDMessage("OnModalClose");
+        }
+
+        // LEGO ID Initialisation
+
+        // Functions called from Unity
+        function LEGOIDLogIn()
+		{
+			LEGOID.API.showLoginModal({
+			    async: true,
+			    callback: function() {	    
+			        //SendLEGOIDMessage("OnLEGOIDLoginSuccess");
+			        LEGOIDCheckAuthentication();
+			    },
+			    scope: window
+			});
+		}
+		
+		function LEGOIDLogOut()
+		{
+            LEGOID.API.logout({ 
+            	callback: function (result) { 
+               		OnAuthenticationChecked( result );
+            	} 
+            });				
+		}
+		
+		function LEGOIDCheckAuthentication()
+		{
+            LEGOID.API.isAuthenticated({ 
+                callback: function (result) {
+                    if(result) {
+                       SendLEGOIDMessage("OnLEGOIDLoginSuccess");
+                    }
+                    else {
+                       SendLEGOIDMessage("OnLEGOIDLogout");
+                    }
+                }
+            });		
+		}
+
+        function LEGOIDGetProfile()
+        {
+            console.log("LEGOIDGetProfile");
+            LEGOID.API.getProfile({
+                callback: function(profile) {
+                    console.log( "LEGOID User name: [" + profile.UserName + "]" );
+                	SendLEGOIDMessage( "OnGetUserName", profile.UserName );
+                },
+    			scope: window
+            });
+        }
+
+		function LEGOIDLoadButton()
+		{
+            LEGOID.API.loadButton({ 
+            	type: 'auto',
+            	selector : '#LEGOIDButtonContainer',
+            	callback: function()
+            	{
+            		var container = document.getElementById("LEGOIDButtonContainer");
+            		
+            	//	var url = container.firstChild.getAttribute("href");
+            	
+            		var anchorObj = container.getElementsByTagName("a")[0];
+            	
+            		var url = anchorObj.getAttribute("href");
+            		var title = anchorObj.getAttribute("title");
+            		var bgimg = "";
+            		
+            		// IE/Opera - easy stuff
+            		if(anchorObj.currentStyle)
+            		{
+						bgimg = anchorObj.currentStyle.backgroundImage;        		
+          			}
+          			// firefox requires full css  	
+            		else
+            		{
+            			bgimg = getComputedStyle(anchorObj,'').getPropertyValue('background-image');
+            		}
+            		
+            		SendLEGOIDMessage("OnLEGOIDLoadButton", url+"*"+title+"*"+bgimg);
+            		
+            		container.removeChild(anchorObj);
+            	}
+            });				
+		}
+ 		
+        //...
+    </script>	
+
+	<script type="text/javascript">
+	/*
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-######-#']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	*/
+	</script>		
+    <script type='text/javascript'>
+    GetConfigParams = function (o,f)
+    {
+        SendMessage(o, f, "");
+    }
+    </script>
+</body>
+</html>
+
+
+

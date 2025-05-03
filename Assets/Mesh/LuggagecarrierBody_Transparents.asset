@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: LuggagecarrierBody_Transparents
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 132
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 52
+    localAABB:
+      m_Center: {x: 0.02046585, y: 41.59494, z: -144.4849}
+      m_Extent: {x: 76.0929, y: 19.09289, z: 7.695808}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 3
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 156
+      m_Range: 228.2941
+      m_Start: -152.1807
+      m_Data: 6ea15c845b2803b0dac300acf67011e7a10cc07928170120d90000487611e7850ec079a117b19aee00aca67b116e850e805ba1175115d900544576116ea10c805b2817e116ca00544536006e850ec06a0f03701eca0000483600e7850ec06aba03d036ca45b48d3200a93f0c40ea0f17613eca00988f7211ff930dc0ff6417617ee800981f7a11a9eb0e40eaba17d176e800b41d7a1154930d00d56417d136ca00b48d72116da30c00d56403d076e800a4fe3000e6a30cc0ff6403607ee800a4ae3b00
+      m_BitSize: 10
+    m_UV:
+      m_NumItems: 104
+      m_Range: 0.6875
+      m_Start: 0.3125
+      m_Data: 1700178b238b23002e8b2e003a8b3a00468b4600518b51005d8b5d00688b6800748b74006fee80c56f9c46ff1dee0cc51d9c468b1700178b238b23002e8b2e003a8b3a00468b4600518b51005d8b5d00688b6800748b74006fee80c56f9c46ff1dee0cc51d9c468b
+      m_BitSize: 8
+    m_Normals:
+      m_NumItems: 104
+      m_Range: 1.999748
+      m_Start: -0.999874
+      m_Data: 4992242000027662273ff883b66ddbe00ffe899dd80008804992242008822008822008822008824992242000027662273ff883b66ddbe00ffe899dd8000880499224200882200882200882200882
+      m_BitSize: 6
+    m_Tangents:
+      m_NumItems: 104
+      m_Range: 1.999748
+      m_Start: -0.999874
+      m_Data: 7662273ff883b66ddbe00ffe899dd80008804992242000027662270008800008800008800008807662273ff883b66ddbe00ffe899dd8000880499224200002766227000880000880000880000880
+      m_BitSize: 6
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 52
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 104
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 208
+      m_Range: 1
+      m_Start: 0
+      m_Data: 0bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf0
+      m_BitSize: 4
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 132
+      m_Data: 402000c23008c44014056114c67118c8812409a224cab228ccc2340de334cef338d00345d2444954455915755914765119a66d9cc6751de775def779e00786212886e2388ae44896256996e6799ae889a629aaa6eacab62eebbe2efcba31eccab13bcb
+      m_BitSize: 6
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 0.02046585, y: 41.59494, z: -144.4849}
+    m_Extent: {x: 76.0929, y: 19.09289, z: 7.695808}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: ExplorerHelicopterStickers
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 66
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 33
+    localAABB:
+      m_Center: {x: 0.05714035, y: 287.9027, z: -265.7544}
+      m_Extent: {x: 115.7315, y: 134.3573, z: 591.7906}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 3
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 99
+      m_Range: 1279.805
+      m_Start: -857.545
+      m_Data: 52e22cae94788b2b25dead4a8973ab09e3ec6ac278bb9a30dee3268cf3b851a21c7994958f1d65e5624789b2d80aa31cb9c2288bad70e5622b5cf9d8a8feff00aae57b80eaff2ea05a7e0fa82aef02aaca3f806af900202bbaecc8badef9a4ae773ea9e8b24f5a7be2c8d69ef8a4b9d78d6cee754faa3bd9c8ea4e36
+      m_BitSize: 10
+    m_UV:
+      m_NumItems: 66
+      m_Range: 0.9906847
+      m_Start: 0.009462476
+      m_Data: 017801e058e058785f565fbeb6beb6566445fc08fc076408fb0efc4d644d644cebfad7d5c3faafd7c3b4ebb4ffd74d704c5600560070003a4c3a001d4c1d00014c01
+      m_BitSize: 8
+    m_Normals:
+      m_NumItems: 66
+      m_Range: 1.999748
+      m_Start: -0.999874
+      m_Data: 0008800008803ff8833ff883000880000880fff77ffff77f0008800008800008800008ee200ff2e00efaa00ffee00ffee00f
+      m_BitSize: 6
+    m_Tangents:
+      m_NumItems: 66
+      m_Range: 1.999748
+      m_Start: -0.9998742
+      m_Data: dff77ddff77ddff77ddff77de00ffee00ffe1ff0011ff001dff77d1ff8851ff87d9ff77ffff77ffff77ffff77ffff77fff07
+      m_BitSize: 6
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 33
+      m_Data: 0000801f00
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 66
+      m_Data: 005500aa0000000000
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 66
+      m_Data: 402000c2401406611c48a220cac2340ee33c502449d13445141555556459117461d99569d89661dcc6751be775ded779e007
+      m_BitSize: 6
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 0.05714035, y: 287.9027, z: -265.7544}
+    m_Extent: {x: 115.7315, y: 134.3573, z: 591.7906}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

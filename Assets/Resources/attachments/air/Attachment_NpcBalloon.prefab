@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1505024129565226}
+  m_IsPrefabParent: 1
+--- !u!1 &1505024129565226
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4737165779303311}
+  - component: {fileID: 114394323721647864}
+  - component: {fileID: 114305845753038126}
+  - component: {fileID: 135331331288961613}
+  - component: {fileID: 65828337851302292}
+  m_Layer: 17
+  m_Name: Attachment_NpcBalloon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4737165779303311
+Transform:
+  m_GameObject: {fileID: 1505024129565226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4192570322466963}
+  - {fileID: 4504774999923449}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114394323721647864
+MonoBehaviour:
+  m_GameObject: {fileID: 1505024129565226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b90c45960debb4cb38c43afa2e6b33, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114305845753038126
+MonoBehaviour:
+  m_GameObject: {fileID: 1505024129565226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a47912950eeef4ebe12f7222720c5c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!135 &135331331288961613
+SphereCollider:
+  m_GameObject: {fileID: 1505024129565226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.986956
+  m_Center: {x: 0, y: 4.17, z: 0}
+--- !u!65 &65828337851302292
+BoxCollider:
+  m_GameObject: {fileID: 1505024129565226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8, y: 2.442297, z: 1.8}
+  m_Center: {x: 0, y: 1.19115, z: 0}
+--- !u!1 &1699701138070960
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4192570322466963}
+  - component: {fileID: 33253440440745127}
+  - component: {fileID: 23604341479937690}
+  - component: {fileID: 114826898383745143}
+  m_Layer: 17
+  m_Name: GenericBalloonTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4192570322466963
+Transform:
+  m_GameObject: {fileID: 1699701138070960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4737165779303311}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33253440440745127
+MeshFilter:
+  m_GameObject: {fileID: 1699701138070960}
+  m_Mesh: {fileID: 4300000, guid: 82f737023192ca541ae73243ca3e8db7, type: 2}
+--- !u!23 &23604341479937690
+MeshRenderer:
+  m_GameObject: {fileID: 1699701138070960}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1037798ef9eb43c4e92fe9800f4a2daa, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114826898383745143
+MonoBehaviour:
+  m_GameObject: {fileID: 1699701138070960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60784ad5bf22f8444acb7b4bbce563bf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1369358571385579
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4504774999923449}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4504774999923449
+Transform:
+  m_GameObject: {fileID: 1369358571385579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4737165779303311}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

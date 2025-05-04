@@ -1,10 +1,5 @@
-uhhhhhh ren todo list:
-
--try guid remap
-
--make scripts not fucking void
+decompile of lego city my city 2 
 
 
--make hunbun do smth
 
--jerk off
+uuuuuuuuh go to branches itr2 is betetr ig

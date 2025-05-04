@@ -1,0 +1,404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1378494194687227}
+  m_IsPrefabParent: 1
+--- !u!1 &1378494194687227
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4584707210291343}
+  - component: {fileID: 114984791536899867}
+  - component: {fileID: 114115036659608398}
+  m_Layer: 17
+  m_Name: SpecialAbility_PlaneEngines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4584707210291343
+Transform:
+  m_GameObject: {fileID: 1378494194687227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.836, y: 0.359, z: 1.266}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4163944381962241}
+  - {fileID: 4124284667137694}
+  - {fileID: 4384993347737854}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114984791536899867
+MonoBehaviour:
+  m_GameObject: {fileID: 1378494194687227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2598bf4ee33271147a8f7de4c516d756, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114115036659608398
+MonoBehaviour:
+  m_GameObject: {fileID: 1378494194687227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1931500122398716
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4163944381962241}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4163944381962241
+Transform:
+  m_GameObject: {fileID: 1931500122398716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.48, y: 0, z: 0.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4584707210291343}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1795378636779379
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4124284667137694}
+  - component: {fileID: 65255339620051859}
+  m_Layer: 17
+  m_Name: AirplaneAccessoryLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124284667137694
+Transform:
+  m_GameObject: {fileID: 1795378636779379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4988534908317293}
+  - {fileID: 4384298195324617}
+  m_Father: {fileID: 4584707210291343}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65255339620051859
+BoxCollider:
+  m_GameObject: {fileID: 1795378636779379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.29, y: 0.8684163, z: 2.85}
+  m_Center: {x: -0.5, y: 0.4314957, z: 0.65}
+--- !u!1 &1602117534515103
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4988534908317293}
+  - component: {fileID: 33981468960887568}
+  - component: {fileID: 23558265345978726}
+  m_Layer: 17
+  m_Name: AirplaneAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4988534908317293
+Transform:
+  m_GameObject: {fileID: 1602117534515103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.02, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4124284667137694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33981468960887568
+MeshFilter:
+  m_GameObject: {fileID: 1602117534515103}
+  m_Mesh: {fileID: 4300000, guid: bd8b039208634bd42a1c5b1183b4d403, type: 2}
+--- !u!23 &23558265345978726
+MeshRenderer:
+  m_GameObject: {fileID: 1602117534515103}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1850233668282733
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4384298195324617}
+  - component: {fileID: 33857395469368511}
+  - component: {fileID: 23034132279584866}
+  m_Layer: 17
+  m_Name: AirplaneAccessory_Decal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4384298195324617
+Transform:
+  m_GameObject: {fileID: 1850233668282733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4124284667137694}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33857395469368511
+MeshFilter:
+  m_GameObject: {fileID: 1850233668282733}
+  m_Mesh: {fileID: 4300000, guid: 09eb26ef807a94448812e63137423f7f, type: 2}
+--- !u!23 &23034132279584866
+MeshRenderer:
+  m_GameObject: {fileID: 1850233668282733}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2971f5528d6d692448fe2c94dfcda07c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1346317149431997
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4384993347737854}
+  - component: {fileID: 65618636586643047}
+  m_Layer: 17
+  m_Name: AirplaneAccessoryRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4384993347737854
+Transform:
+  m_GameObject: {fileID: 1346317149431997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.895, y: 0.001999974, z: 0.01500082}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4125083693127613}
+  - {fileID: 4310655703011779}
+  m_Father: {fileID: 4584707210291343}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65618636586643047
+BoxCollider:
+  m_GameObject: {fileID: 1346317149431997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.29, y: 0.8684163, z: 2.85}
+  m_Center: {x: -0.5, y: 0.4314957, z: 0.65}
+--- !u!1 &1842713295477112
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4125083693127613}
+  - component: {fileID: 33114409866392906}
+  - component: {fileID: 23358648812852081}
+  m_Layer: 17
+  m_Name: AirplaneAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4125083693127613
+Transform:
+  m_GameObject: {fileID: 1842713295477112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.02, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4384993347737854}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33114409866392906
+MeshFilter:
+  m_GameObject: {fileID: 1842713295477112}
+  m_Mesh: {fileID: 4300000, guid: bd8b039208634bd42a1c5b1183b4d403, type: 2}
+--- !u!23 &23358648812852081
+MeshRenderer:
+  m_GameObject: {fileID: 1842713295477112}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1948699463775497
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4310655703011779}
+  m_Layer: 17
+  m_Name: Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4310655703011779
+Transform:
+  m_GameObject: {fileID: 1948699463775497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.182}
+  m_LocalScale: {x: 0.01, y: 0.01, z: -0.01}
+  m_Children:
+  - {fileID: 4019781093226805}
+  m_Father: {fileID: 4384993347737854}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1223961138044512
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4019781093226805}
+  - component: {fileID: 33455564935195316}
+  - component: {fileID: 23188686121229504}
+  m_Layer: 17
+  m_Name: AirplaneAccessory_Decal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4019781093226805
+Transform:
+  m_GameObject: {fileID: 1223961138044512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.768372E-05, y: 0, z: -0.0001430511}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4310655703011779}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33455564935195316
+MeshFilter:
+  m_GameObject: {fileID: 1223961138044512}
+  m_Mesh: {fileID: 4300000, guid: 09eb26ef807a94448812e63137423f7f, type: 2}
+--- !u!23 &23188686121229504
+MeshRenderer:
+  m_GameObject: {fileID: 1223961138044512}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2971f5528d6d692448fe2c94dfcda07c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

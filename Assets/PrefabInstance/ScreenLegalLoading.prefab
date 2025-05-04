@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1684334926011663}
+  m_IsPrefabParent: 1
+--- !u!1 &1684334926011663
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4136247384845492}
+  - component: {fileID: 114211008335965866}
+  - component: {fileID: 114265451793429394}
+  - component: {fileID: 54162791183239372}
+  - component: {fileID: 114970162202573981}
+  m_Layer: 9
+  m_Name: ScreenLegalLoading
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4136247384845492
+Transform:
+  m_GameObject: {fileID: 1684334926011663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.002777778, y: 0.002777778, z: 0.002777778}
+  m_Children:
+  - {fileID: 4278933058677055}
+  - {fileID: 4518355824315949}
+  - {fileID: 4785952990078481}
+  - {fileID: 4445346484745530}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114211008335965866
+MonoBehaviour:
+  m_GameObject: {fileID: 1684334926011663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b593590a32067c94181e14a499be094f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114265451793429394
+MonoBehaviour:
+  m_GameObject: {fileID: 1684334926011663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a94844c4345184e8494361183e8e60, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!54 &54162791183239372
+Rigidbody:
+  m_GameObject: {fileID: 1684334926011663}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114970162202573981
+MonoBehaviour:
+  m_GameObject: {fileID: 1684334926011663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416471c9845ec2043a4ca857314df230, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1841095359723272
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4278933058677055}
+  - component: {fileID: 114321000676907958}
+  m_Layer: 9
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4278933058677055
+Transform:
+  m_GameObject: {fileID: 1841095359723272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -327723, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4136247384845492}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114321000676907958
+MonoBehaviour:
+  m_GameObject: {fileID: 1841095359723272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be04a635de2841e4cad1365f547921f6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1975491343996137
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4518355824315949}
+  - component: {fileID: 114005652273748854}
+  m_Layer: 9
+  m_Name: LegoCityLogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4518355824315949
+Transform:
+  m_GameObject: {fileID: 1975491343996137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4136247384845492}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114005652273748854
+MonoBehaviour:
+  m_GameObject: {fileID: 1975491343996137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ce775f5be10da4a9007ac727ac3153, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1721168957512542
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4785952990078481}
+  - component: {fileID: 114708351651895105}
+  m_Layer: 9
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4785952990078481
+Transform:
+  m_GameObject: {fileID: 1721168957512542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4136247384845492}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114708351651895105
+MonoBehaviour:
+  m_GameObject: {fileID: 1721168957512542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be04a635de2841e4cad1365f547921f6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1417122248761062
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4445346484745530}
+  - component: {fileID: 114659544623915351}
+  m_Layer: 9
+  m_Name: LegalTextLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4445346484745530
+Transform:
+  m_GameObject: {fileID: 1417122248761062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -280, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 4136247384845492}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114659544623915351
+MonoBehaviour:
+  m_GameObject: {fileID: 1417122248761062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28fc94a3456cdfd428a94a259e784541, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

@@ -1,0 +1,384 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1610487477320862}
+  m_IsPrefabParent: 1
+--- !u!1 &1610487477320862
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4034032183874664}
+  - component: {fileID: 114654989498881919}
+  - component: {fileID: 114180240040614411}
+  m_Layer: 17
+  m_Name: SpecialAbility_LargeHelicopterEngine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4034032183874664
+Transform:
+  m_GameObject: {fileID: 1610487477320862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4725930371094254}
+  - {fileID: 4586072340904784}
+  - {fileID: 4512356490260998}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114654989498881919
+MonoBehaviour:
+  m_GameObject: {fileID: 1610487477320862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2598bf4ee33271147a8f7de4c516d756, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114180240040614411
+MonoBehaviour:
+  m_GameObject: {fileID: 1610487477320862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1165993328279036
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4725930371094254}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4725930371094254
+Transform:
+  m_GameObject: {fileID: 1165993328279036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.48, y: 0, z: 0.237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4034032183874664}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1260129194625502
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4586072340904784}
+  m_Layer: 0
+  m_Name: EngineL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4586072340904784
+Transform:
+  m_GameObject: {fileID: 1260129194625502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4723080557789151}
+  - {fileID: 4492960720253569}
+  m_Father: {fileID: 4034032183874664}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1118249361520829
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4723080557789151}
+  - component: {fileID: 33613206116955659}
+  - component: {fileID: 23559653196811658}
+  m_Layer: 17
+  m_Name: FireHelicopterAccessoryJetLeftLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4723080557789151
+Transform:
+  m_GameObject: {fileID: 1118249361520829}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0.4780002, y: -0.01200002, z: 1.126}
+  m_LocalScale: {x: 0.009999999, y: 0.01, z: 0.009999999}
+  m_Children: []
+  m_Father: {fileID: 4586072340904784}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 89.99999, z: 0}
+--- !u!33 &33613206116955659
+MeshFilter:
+  m_GameObject: {fileID: 1118249361520829}
+  m_Mesh: {fileID: 4300000, guid: 860a2d03ac3461747be166849aa011c7, type: 2}
+--- !u!23 &23559653196811658
+MeshRenderer:
+  m_GameObject: {fileID: 1118249361520829}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1756118342211423
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4492960720253569}
+  - component: {fileID: 33124368374088396}
+  - component: {fileID: 23242641183696198}
+  m_Layer: 17
+  m_Name: FireHelicopterAccessoryLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4492960720253569
+Transform:
+  m_GameObject: {fileID: 1756118342211423}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0.0009999275, y: 0.023, z: -0.05700016}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4586072340904784}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 89.99999, z: 0}
+--- !u!33 &33124368374088396
+MeshFilter:
+  m_GameObject: {fileID: 1756118342211423}
+  m_Mesh: {fileID: 4300000, guid: a1e68311a864bd4478a2b03cc5a83460, type: 2}
+--- !u!23 &23242641183696198
+MeshRenderer:
+  m_GameObject: {fileID: 1756118342211423}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1119430236113611
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4512356490260998}
+  m_Layer: 0
+  m_Name: secondaryPart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4512356490260998
+Transform:
+  m_GameObject: {fileID: 1119430236113611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.098, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4754408545813076}
+  m_Father: {fileID: 4034032183874664}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1429932172610079
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4754408545813076}
+  m_Layer: 0
+  m_Name: EngineR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4754408545813076
+Transform:
+  m_GameObject: {fileID: 1429932172610079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4931100617074831}
+  - {fileID: 4251165991861518}
+  m_Father: {fileID: 4512356490260998}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1241705931377557
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4931100617074831}
+  - component: {fileID: 33425230543409721}
+  - component: {fileID: 23591558846421112}
+  m_Layer: 17
+  m_Name: FireHelicopterAccessoryJetLeftLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4931100617074831
+Transform:
+  m_GameObject: {fileID: 1241705931377557}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0.4780002, y: -0.01200002, z: 1.126}
+  m_LocalScale: {x: 0.009999999, y: 0.01, z: 0.009999999}
+  m_Children: []
+  m_Father: {fileID: 4754408545813076}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 89.99999, z: 0}
+--- !u!33 &33425230543409721
+MeshFilter:
+  m_GameObject: {fileID: 1241705931377557}
+  m_Mesh: {fileID: 4300000, guid: 860a2d03ac3461747be166849aa011c7, type: 2}
+--- !u!23 &23591558846421112
+MeshRenderer:
+  m_GameObject: {fileID: 1241705931377557}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1254917405809561
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4251165991861518}
+  - component: {fileID: 33838622037762052}
+  - component: {fileID: 23161110193924748}
+  m_Layer: 17
+  m_Name: FireHelicopterAccessoryLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4251165991861518
+Transform:
+  m_GameObject: {fileID: 1254917405809561}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0.0009999275, y: 0.023, z: -0.05700016}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4754408545813076}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 89.99999, z: 0}
+--- !u!33 &33838622037762052
+MeshFilter:
+  m_GameObject: {fileID: 1254917405809561}
+  m_Mesh: {fileID: 4300000, guid: a1e68311a864bd4478a2b03cc5a83460, type: 2}
+--- !u!23 &23161110193924748
+MeshRenderer:
+  m_GameObject: {fileID: 1254917405809561}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

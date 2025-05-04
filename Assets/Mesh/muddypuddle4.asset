@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: muddypuddle4
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 84
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 30
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 158.2968, y: 0, z: 103.2452}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 2
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 90
+      m_Range: 316.5936
+      m_Start: -158.2968
+      m_Data: 1a080080f5785f1b008079824f070080ba5d00000080c4681d1c0080a0459e490080254b483f00806a9e931a00806595f6280080a9ab111500801aa8031a008002aec4580080b68fce7800808b45926b0080938e9a7f0080a09ebfa000800137abe100809b7d6ec20080842cd0cc0080842c87e80080fe3639f50080bb76ffff00801267a3ff00804f55c0cf0080a89d7db8008019b4928400805db00792008071ca99b1008064cc68a800807bd3e29e00807bd3
+      m_BitSize: 16
+    m_UV:
+      m_NumItems: 60
+      m_Range: 0.4283308
+      m_Start: 0.4838497
+      m_Data: f04d35a7241fdb7f62cb09e2d5b7388c7339b4936087f2bc08573e2209eaf453310cb68f613a6d92894866958f3d54a938a6e29ca031ad743004322f42ae06ca00700300
+      m_BitSize: 9
+    m_Normals:
+      m_NumItems: 60
+      m_Range: 1
+      m_Start: 0
+      m_Data: 00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 60
+      m_Range: 1
+      m_Start: -1
+      m_Data: 00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff00ff
+      m_BitSize: 8
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 30
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 60
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 84
+      m_Data: 20082046202214624a30e19883d0492829b3ca626535d61c738f39f8e28311ca29e18474d23aab85ee3a7c5dc61a67bdb1e65b770e
+      m_BitSize: 5
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 158.2968, y: 0, z: 103.2452}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

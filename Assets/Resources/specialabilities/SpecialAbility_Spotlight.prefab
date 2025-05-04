@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1846578203057923}
+  m_IsPrefabParent: 1
+--- !u!1 &1846578203057923
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4233342018672882}
+  - component: {fileID: 114672702810902647}
+  - component: {fileID: 114477222492151755}
+  - component: {fileID: 65575533436235069}
+  - component: {fileID: 114673553063154859}
+  m_Layer: 17
+  m_Name: SpecialAbility_Spotlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4233342018672882
+Transform:
+  m_GameObject: {fileID: 1846578203057923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4250067107758035}
+  - {fileID: 4503599660837267}
+  - {fileID: 4480772615429136}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114672702810902647
+MonoBehaviour:
+  m_GameObject: {fileID: 1846578203057923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1970ee532f61097489a9e4a299d31b8f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114477222492151755
+MonoBehaviour:
+  m_GameObject: {fileID: 1846578203057923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65575533436235069
+BoxCollider:
+  m_GameObject: {fileID: 1846578203057923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.09, y: 1.595549, z: 1.758565}
+  m_Center: {x: 0, y: 0.7999229, z: -0.6303406}
+--- !u!114 &114673553063154859
+MonoBehaviour:
+  m_GameObject: {fileID: 1846578203057923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253b6709de5f41743bcb297e96dff5b8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1986637218460339
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250067107758035}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4250067107758035
+Transform:
+  m_GameObject: {fileID: 1986637218460339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.7441, z: -0.384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4233342018672882}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1194277670560398
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4503599660837267}
+  m_Layer: 17
+  m_Name: Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4503599660837267
+Transform:
+  m_GameObject: {fileID: 1194277670560398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2661, z: -0.761}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4301959016932056}
+  - {fileID: 4322396719936477}
+  m_Father: {fileID: 4233342018672882}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1444780480464548
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4301959016932056}
+  - component: {fileID: 33473495025517996}
+  - component: {fileID: 23756163424535103}
+  m_Layer: 17
+  m_Name: PoliceBoatAccessoryLamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4301959016932056
+Transform:
+  m_GameObject: {fileID: 1444780480464548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.002760798, z: -0.001327753}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 4784697839788080}
+  m_Father: {fileID: 4503599660837267}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33473495025517996
+MeshFilter:
+  m_GameObject: {fileID: 1444780480464548}
+  m_Mesh: {fileID: 4300000, guid: 0130eb372f160674ab314ded2e24421d, type: 2}
+--- !u!23 &23756163424535103
+MeshRenderer:
+  m_GameObject: {fileID: 1444780480464548}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1101514784327737
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4784697839788080}
+  - component: {fileID: 33031222815354087}
+  - component: {fileID: 23157773527304028}
+  m_Layer: 17
+  m_Name: PoliceBoatAccessoryTransparents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4784697839788080
+Transform:
+  m_GameObject: {fileID: 1101514784327737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -25.92394, z: 57.03267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4301959016932056}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33031222815354087
+MeshFilter:
+  m_GameObject: {fileID: 1101514784327737}
+  m_Mesh: {fileID: 4300000, guid: 4e374b435dc62834eb0f6d78965f9bae, type: 2}
+--- !u!23 &23157773527304028
+MeshRenderer:
+  m_GameObject: {fileID: 1101514784327737}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: aaeffdd3295bb664493e8b36541ef6da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1414283623619252
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4322396719936477}
+  m_Layer: 17
+  m_Name: Beam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4322396719936477
+Transform:
+  m_GameObject: {fileID: 1414283623619252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05453491, y: 0.959, z: 0.71}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4730759200810803}
+  m_Father: {fileID: 4503599660837267}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1749391095226052
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4730759200810803}
+  - component: {fileID: 33052240905990955}
+  - component: {fileID: 23140570612679671}
+  m_Layer: 17
+  m_Name: searchlightCone
+  m_TagString: DisableInCarousel
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730759200810803
+Transform:
+  m_GameObject: {fileID: 1749391095226052}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.05453491, y: 0, z: 0}
+  m_LocalScale: {x: 0.003552824, y: 0.0005673413, z: 0.003552824}
+  m_Children: []
+  m_Father: {fileID: 4322396719936477}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!33 &33052240905990955
+MeshFilter:
+  m_GameObject: {fileID: 1749391095226052}
+  m_Mesh: {fileID: 4300000, guid: 60b3e05f50dd46542ba7c8a673dddb92, type: 2}
+--- !u!23 &23140570612679671
+MeshRenderer:
+  m_GameObject: {fileID: 1749391095226052}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5d5bad90c3605df41a97382bea777856, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1431593621779393
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4480772615429136}
+  m_Layer: 17
+  m_Name: PoliceBoatAccessory (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4480772615429136
+Transform:
+  m_GameObject: {fileID: 1431593621779393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0041, z: -0.192}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 4079641474840697}
+  m_Father: {fileID: 4233342018672882}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1787449460896070
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4079641474840697}
+  - component: {fileID: 33062528588076734}
+  - component: {fileID: 23362666725357064}
+  m_Layer: 17
+  m_Name: PoliceBoatAccessoryBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4079641474840697
+Transform:
+  m_GameObject: {fileID: 1787449460896070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4480772615429136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33062528588076734
+MeshFilter:
+  m_GameObject: {fileID: 1787449460896070}
+  m_Mesh: {fileID: 4300000, guid: b46e3acf53d4711408ec669a230ead81, type: 2}
+--- !u!23 &23362666725357064
+MeshRenderer:
+  m_GameObject: {fileID: 1787449460896070}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

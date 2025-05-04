@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1137140402897253}
+  m_IsPrefabParent: 1
+--- !u!1 &1137140402897253
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4224204129062398}
+  - component: {fileID: 114329283027748429}
+  - component: {fileID: 114254804335208621}
+  - component: {fileID: 65982081863880340}
+  - component: {fileID: 114375938397181282}
+  m_Layer: 17
+  m_Name: SpecialAbility_HovercraftPropeller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4224204129062398
+Transform:
+  m_GameObject: {fileID: 1137140402897253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4250547553336065}
+  - {fileID: 4391015922475633}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114329283027748429
+MonoBehaviour:
+  m_GameObject: {fileID: 1137140402897253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2598bf4ee33271147a8f7de4c516d756, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114254804335208621
+MonoBehaviour:
+  m_GameObject: {fileID: 1137140402897253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65982081863880340
+BoxCollider:
+  m_GameObject: {fileID: 1137140402897253}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 1.55, z: 1.544647}
+  m_Center: {x: 0, y: 0.5999985, z: 0.4093933}
+--- !u!114 &114375938397181282
+MonoBehaviour:
+  m_GameObject: {fileID: 1137140402897253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253b6709de5f41743bcb297e96dff5b8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1734243860394532
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250547553336065}
+  m_Layer: 17
+  m_Name: FireHovercraftEngine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4250547553336065
+Transform:
+  m_GameObject: {fileID: 1734243860394532}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.629207E-07}
+  m_LocalPosition: {x: 0, y: 0, z: -0.003}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 4379514589394561}
+  - {fileID: 4758513481462685}
+  - {fileID: 4698733425021267}
+  - {fileID: 4326337578764704}
+  m_Father: {fileID: 4224204129062398}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: 1.866934E-05, z: -180}
+--- !u!1 &1008006784539823
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4379514589394561}
+  - component: {fileID: 33759076348958033}
+  - component: {fileID: 23148679008401084}
+  m_Layer: 17
+  m_Name: FireHovercraftEngine 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4379514589394561
+Transform:
+  m_GameObject: {fileID: 1008006784539823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008631218, y: 0.01406025, z: -0.01487213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4250547553336065}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33759076348958033
+MeshFilter:
+  m_GameObject: {fileID: 1008006784539823}
+  m_Mesh: {fileID: 4300000, guid: eddb85eaee2065d41abb7f8636d8df6a, type: 2}
+--- !u!23 &23148679008401084
+MeshRenderer:
+  m_GameObject: {fileID: 1008006784539823}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1318308725250148
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4758513481462685}
+  - component: {fileID: 33059629289405104}
+  - component: {fileID: 23189482269837662}
+  m_Layer: 17
+  m_Name: FireHovercraftEngineBlades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4758513481462685
+Transform:
+  m_GameObject: {fileID: 1318308725250148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6143921, y: 60.79044, z: -107.7991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4250547553336065}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33059629289405104
+MeshFilter:
+  m_GameObject: {fileID: 1318308725250148}
+  m_Mesh: {fileID: 4300000, guid: eedec943062a0f84da827e7ed3e5b538, type: 2}
+--- !u!23 &23189482269837662
+MeshRenderer:
+  m_GameObject: {fileID: 1318308725250148}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1111909393965019
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4698733425021267}
+  - component: {fileID: 33526620430270534}
+  - component: {fileID: 23454191972682885}
+  m_Layer: 17
+  m_Name: FireHovercraftEngineDecals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4698733425021267
+Transform:
+  m_GameObject: {fileID: 1111909393965019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.82166, y: 54.19431, z: 37.4733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4250547553336065}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33526620430270534
+MeshFilter:
+  m_GameObject: {fileID: 1111909393965019}
+  m_Mesh: {fileID: 4300000, guid: 8858e36bb103dda49ac868ca80c0e438, type: 2}
+--- !u!23 &23454191972682885
+MeshRenderer:
+  m_GameObject: {fileID: 1111909393965019}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d0a0c43499657247917a242a29a008d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1658565440589977
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4326337578764704}
+  - component: {fileID: 33801740272316167}
+  - component: {fileID: 23910387180448946}
+  m_Layer: 17
+  m_Name: FireHovercraftEngineTransparency
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4326337578764704
+Transform:
+  m_GameObject: {fileID: 1658565440589977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008270312, y: 0.005192473, z: 0.05306128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4250547553336065}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33801740272316167
+MeshFilter:
+  m_GameObject: {fileID: 1658565440589977}
+  m_Mesh: {fileID: 4300000, guid: 5b2bade8c9a722744b2b33c47f63a386, type: 2}
+--- !u!23 &23910387180448946
+MeshRenderer:
+  m_GameObject: {fileID: 1658565440589977}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: aaeffdd3295bb664493e8b36541ef6da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1931260360150762
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4391015922475633}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4391015922475633
+Transform:
+  m_GameObject: {fileID: 1931260360150762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.58, z: 0.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4224204129062398}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

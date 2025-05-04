@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1910030958926519}
+  m_IsPrefabParent: 1
+--- !u!1 &1910030958926519
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4534657334233117}
+  - component: {fileID: 114374467446138330}
+  - component: {fileID: 114182691255402265}
+  m_Layer: 17
+  m_Name: SpecialAbility_PoliceSiren
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4534657334233117
+Transform:
+  m_GameObject: {fileID: 1910030958926519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -112.1659, y: 0.04998851, z: -7.203815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4594203841938810}
+  - {fileID: 4366539513277220}
+  - {fileID: 4152010854962615}
+  - {fileID: 4958015810264575}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114374467446138330
+MonoBehaviour:
+  m_GameObject: {fileID: 1910030958926519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dda78dd63483d74aa981a8acb950d3c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114182691255402265
+MonoBehaviour:
+  m_GameObject: {fileID: 1910030958926519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1676946039665363
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4594203841938810}
+  m_Layer: 17
+  m_Name: PoliceCarRoof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4594203841938810
+Transform:
+  m_GameObject: {fileID: 1676946039665363}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0763, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4190396745482762}
+  m_Father: {fileID: 4534657334233117}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1234537376522990
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4190396745482762}
+  - component: {fileID: 33577574955184453}
+  - component: {fileID: 23440737554173387}
+  m_Layer: 17
+  m_Name: PoliceCarRoofTransparent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4190396745482762
+Transform:
+  m_GameObject: {fileID: 1234537376522990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4594203841938810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33577574955184453
+MeshFilter:
+  m_GameObject: {fileID: 1234537376522990}
+  m_Mesh: {fileID: 4300000, guid: 73a0a4c7869c9224b8b1a165e5d958cf, type: 2}
+--- !u!23 &23440737554173387
+MeshRenderer:
+  m_GameObject: {fileID: 1234537376522990}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: aaeffdd3295bb664493e8b36541ef6da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1553705099147621
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4366539513277220}
+  m_Layer: 0
+  m_Name: LightL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4366539513277220
+Transform:
+  m_GameObject: {fileID: 1553705099147621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.565, y: 0.143, z: -0.198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4534657334233117}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1132569971737804
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4152010854962615}
+  m_Layer: 0
+  m_Name: LightR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4152010854962615
+Transform:
+  m_GameObject: {fileID: 1132569971737804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.565, y: 0.143, z: -0.198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4534657334233117}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1934608897886359
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4958015810264575}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4958015810264575
+Transform:
+  m_GameObject: {fileID: 1934608897886359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.071, z: -0.012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4534657334233117}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

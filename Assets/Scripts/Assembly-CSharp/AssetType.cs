@@ -1,0 +1,10 @@
+public enum AssetType
+{
+	TEXT = 0,
+	IMAGE = 1,
+	VIDEO = 2,
+	ITEM_BUNDLE = 3,
+	LEVEL_BUNDLE = 4,
+	TEXTURE_ATLAS = 5,
+	TEXTURE_ATLAS_TEXTURE = 6
+}

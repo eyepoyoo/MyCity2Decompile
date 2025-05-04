@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1640223100753965}
+  m_IsPrefabParent: 1
+--- !u!1 &1640223100753965
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4308487171901424}
+  - component: {fileID: 114288149008839420}
+  - component: {fileID: 114566998747798123}
+  m_Layer: 17
+  m_Name: SpecialAbility_MiniSiren
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4308487171901424
+Transform:
+  m_GameObject: {fileID: 1640223100753965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -118.5894, y: 0.04999516, z: -42.73042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4082243344142733}
+  - {fileID: 4318562247115370}
+  - {fileID: 4278303756714158}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114288149008839420
+MonoBehaviour:
+  m_GameObject: {fileID: 1640223100753965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dda78dd63483d74aa981a8acb950d3c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114566998747798123
+MonoBehaviour:
+  m_GameObject: {fileID: 1640223100753965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1407875582416628
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4082243344142733}
+  m_Layer: 17
+  m_Name: Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4082243344142733
+Transform:
+  m_GameObject: {fileID: 1407875582416628}
+  m_LocalRotation: {x: 1.152023E-07, y: 0.7071068, z: 0.7071068, w: -1.152023E-07}
+  m_LocalPosition: {x: -0.1807, y: 0.177, z: -0.192}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4308487171901424}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 1.866933E-05, z: 180}
+--- !u!1 &1243287136096334
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4318562247115370}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4318562247115370
+Transform:
+  m_GameObject: {fileID: 1243287136096334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1807, y: 0.082, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4308487171901424}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1949663536075250
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4278303756714158}
+  - component: {fileID: 33749292315879261}
+  - component: {fileID: 23942902426625617}
+  m_Layer: 17
+  m_Name: RaftHullTransparents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4278303756714158
+Transform:
+  m_GameObject: {fileID: 1949663536075250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1807, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4308487171901424}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33749292315879261
+MeshFilter:
+  m_GameObject: {fileID: 1949663536075250}
+  m_Mesh: {fileID: 4300000, guid: fd683cd7eb9ca7c4cb86f97847713500, type: 2}
+--- !u!23 &23942902426625617
+MeshRenderer:
+  m_GameObject: {fileID: 1949663536075250}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: aaeffdd3295bb664493e8b36541ef6da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

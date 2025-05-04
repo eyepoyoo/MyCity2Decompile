@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1735794609213109}
+  m_IsPrefabParent: 1
+--- !u!1 &1735794609213109
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4598011225779485}
+  - component: {fileID: 114836933592152488}
+  m_Layer: 14
+  m_Name: Wheel_NpcTruck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4598011225779485
+Transform:
+  m_GameObject: {fileID: 1735794609213109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4452356869799953}
+  - {fileID: 4983683305767431}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114836933592152488
+MonoBehaviour:
+  m_GameObject: {fileID: 1735794609213109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1761627091155421
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4452356869799953}
+  - component: {fileID: 114901753386422252}
+  - component: {fileID: 146901647844328498}
+  m_Layer: 14
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4452356869799953
+Transform:
+  m_GameObject: {fileID: 1761627091155421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3552001, y: 2.793968E-08, z: 1.192093E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4598011225779485}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114901753386422252
+MonoBehaviour:
+  m_GameObject: {fileID: 1761627091155421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c475655e1c22047a42d264909c0a03, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!146 &146901647844328498
+WheelCollider:
+  m_GameObject: {fileID: 1761627091155421}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.73
+  m_SuspensionSpring:
+    spring: 100
+    damper: 2
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.3
+  m_ForceAppPointDistance: 0.709
+  m_Mass: 0.1
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 1
+    m_ExtremumValue: 2
+    m_AsymptoteSlip: 1
+    m_AsymptoteValue: 2
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 1
+    m_ExtremumValue: 5
+    m_AsymptoteSlip: 1
+    m_AsymptoteValue: 5
+    m_Stiffness: 1
+  m_Enabled: 1
+--- !u!1 &1548996196602083
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4983683305767431}
+  - component: {fileID: 33694920118477952}
+  - component: {fileID: 23639666402650513}
+  m_Layer: 14
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4983683305767431
+Transform:
+  m_GameObject: {fileID: 1548996196602083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3552, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4598011225779485}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33694920118477952
+MeshFilter:
+  m_GameObject: {fileID: 1548996196602083}
+  m_Mesh: {fileID: 4300000, guid: a76ac33b7721d524dab8a29328588687, type: 2}
+--- !u!23 &23639666402650513
+MeshRenderer:
+  m_GameObject: {fileID: 1548996196602083}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: eba7a1026b2e8ac48813e73396f4df56, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

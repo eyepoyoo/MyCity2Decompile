@@ -1,0 +1,160 @@
+{
+"node": [
+{
+    "name": "trackingMetrics",
+    "node": [
+        {
+            "name": "gameId",
+            "value": "LEGCTY"
+        },    
+        {
+            "name": "Trackers",
+            "FlurryTracker": {
+                "name": "FlurryTracker",
+                "value": "flurry"
+            },
+            "TrackManTracker": {
+                "name": "TrackManTracker"
+            }
+        },
+        {
+            "name": "metrics",
+            "node": [
+                {
+                    "name": "LEGOID",
+                    "value": "LEGOID",
+		            "node": [
+		                {
+		                    "type": "parameter",
+		                    "name": "Status",
+		                    "value": "trackingMetrics/trackingData/LEGOID"
+		                }
+		             ]
+                }
+            ]
+        },
+        {
+		"name": "events",
+		"node": [
+		{
+			"name": "Login_From_Profile",
+			"value": "Login_From_Profile"
+		},        
+		{
+			"name": "Login_From_Title",
+			"value": "Login_From_Title"
+		},        
+		{
+			"name": "ValidCode",
+			"value": "ValidCode"
+		},        		
+		{
+			"name": "DeleteCity",
+			"value": "DeleteCity"
+		},      
+		{
+			"name": "Region_INVALID",
+			"value": "Region_INVALID"
+		},
+		{
+			"name": "Region_SOCIAL",
+			"value": "Region_SOCIAL"
+		},
+		{
+			"name": "Region_GARAGE",
+			"value": "Region_GARAGE"
+		},
+		{
+			"name": "Region_TO_CITY",
+			"value": "Region_TO_CITY"
+		},
+		{
+			"name": "Region_TO_VOLCANO",
+			"value": "Region_TO_VOLCANO"
+		},
+		{
+			"name": "Region_TO_AIRPORT",
+			"value": "Region_TO_AIRPORT"
+		},
+		{
+			"name": "Scenario_INVALID",
+			"value": "Scenario_INVALID"
+		},
+		{
+			"name": "Scenario_FIRE_STATION",
+			"value": "Scenario_FIRE_STATION"
+		},
+		{
+			"name": "Scenario_LIGHTHOUSE",
+			"value": "Scenario_LIGHTHOUSE"
+		},
+		{
+			"name": "Scenario_FIRE_CONTAINERS",
+			"value": "Scenario_FIRE_CONTAINERS"
+		},
+		{
+			"name": "Scenario_POLICE_ISLAND_HQ",
+			"value": "Scenario_POLICE_ISLAND_HQ"
+		},
+		{
+			"name": "Scenario_POLICE_BOATS",
+			"value": "Scenario_POLICE_BOATS"
+		},
+		{
+			"name": "Scenario_JETSKI_PATROL",
+			"value": "Scenario_JETSKI_PATROL"
+		},
+		{
+			"name": "Scenario_HELICOPTER_REQUESTED",
+			"value": "Scenario_HELICOPTER_REQUESTED"
+		},
+		{
+			"name": "Scenario_LAVA_LIFTERS_NEEDED",
+			"value": "Scenario_LAVA_LIFTERS_NEEDED"
+		},
+		{
+			"name": "Scenario_LAVA_LAB_PERIL",
+			"value": "Scenario_LAVA_LAB_PERIL"
+		},
+		{
+			"name": "Scenario_AIRPORT_1",
+			"value": "Scenario_AIRPORT_1"
+		},
+		{
+			"name": "Scenario_AIRPORT_2",
+			"value": "Scenario_AIRPORT_2"
+		},
+		{
+			"name": "Scenario_TUTORIAL_GARAGE",
+			"value": "Scenario_TUTORIAL_GARAGE"
+		},
+		{
+			"name": "CTA_Web",
+			"value": "CTA_Web"
+		},
+		{
+			"name": "CTA_Android",
+			"value": "CTA_Android"
+		},
+		{
+			"name": "CTA_iOS",
+			"value": "CTA_iOS"
+		}
+		]
+	},
+        {
+            "name": "trackingData",
+            "node": [
+                {
+                    "name": "level",
+                    "value": ""
+                },
+                {
+                    "name": "LEGOID",
+                    "value": ""
+                }
+            ]
+        }
+    ]
+   }]
+}

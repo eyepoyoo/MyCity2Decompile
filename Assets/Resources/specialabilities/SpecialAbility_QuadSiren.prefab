@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1211779771233720}
+  m_IsPrefabParent: 1
+--- !u!1 &1211779771233720
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4752778055660708}
+  - component: {fileID: 114742719411635819}
+  - component: {fileID: 114135170564783240}
+  m_Layer: 17
+  m_Name: SpecialAbility_QuadSiren
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4752778055660708
+Transform:
+  m_GameObject: {fileID: 1211779771233720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -117.4279, y: 0.04999512, z: -42.83156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4984763658656115}
+  - {fileID: 4127045202808229}
+  - {fileID: 4510087340338068}
+  - {fileID: 4123538936813616}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114742719411635819
+MonoBehaviour:
+  m_GameObject: {fileID: 1211779771233720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dda78dd63483d74aa981a8acb950d3c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114135170564783240
+MonoBehaviour:
+  m_GameObject: {fileID: 1211779771233720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1223070734897720
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4984763658656115}
+  m_Layer: 17
+  m_Name: Light_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4984763658656115
+Transform:
+  m_GameObject: {fileID: 1223070734897720}
+  m_LocalRotation: {x: 1.152023E-07, y: 0.7071068, z: 0.7071068, w: -1.152023E-07}
+  m_LocalPosition: {x: 0.96, y: 0.39, z: -0.106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4752778055660708}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 1.866933E-05, z: 180}
+--- !u!1 &1163690289267374
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4127045202808229}
+  m_Layer: 17
+  m_Name: Light_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4127045202808229
+Transform:
+  m_GameObject: {fileID: 1163690289267374}
+  m_LocalRotation: {x: 1.152023E-07, y: 0.7071068, z: 0.7071068, w: -1.152023E-07}
+  m_LocalPosition: {x: -1.011, y: 0.39, z: -0.151}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4752778055660708}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 1.866933E-05, z: 180}
+--- !u!1 &1606306193178457
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4510087340338068}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4510087340338068
+Transform:
+  m_GameObject: {fileID: 1606306193178457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.227, z: -0.3294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4752778055660708}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1492660270031788
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4123538936813616}
+  m_Layer: 17
+  m_Name: FireQuadBikeAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4123538936813616
+Transform:
+  m_GameObject: {fileID: 1492660270031788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.227, z: -0.1374}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4407030108751548}
+  - {fileID: 4561078551764867}
+  m_Father: {fileID: 4752778055660708}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1932808928546648
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4407030108751548}
+  - component: {fileID: 33033288817519657}
+  - component: {fileID: 23127183865690724}
+  m_Layer: 17
+  m_Name: FireQuadBikeAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4407030108751548
+Transform:
+  m_GameObject: {fileID: 1932808928546648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0005104828, y: -0.07623154, z: 6.82121E-15}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4123538936813616}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33033288817519657
+MeshFilter:
+  m_GameObject: {fileID: 1932808928546648}
+  m_Mesh: {fileID: 4300000, guid: 8e56d3b99ac9ae64787d32daac0538fc, type: 2}
+--- !u!23 &23127183865690724
+MeshRenderer:
+  m_GameObject: {fileID: 1932808928546648}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1336021478519242
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4561078551764867}
+  - component: {fileID: 33661333765929687}
+  - component: {fileID: 23804997229941085}
+  m_Layer: 17
+  m_Name: FireQuadBikeAccessoryTransparents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4561078551764867
+Transform:
+  m_GameObject: {fileID: 1336021478519242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.673618E-20, y: 3.410605E-15, z: 0.1366294}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4123538936813616}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33661333765929687
+MeshFilter:
+  m_GameObject: {fileID: 1336021478519242}
+  m_Mesh: {fileID: 4300000, guid: e6216953f815b4b469f6e9907b7e0265, type: 2}
+--- !u!23 &23804997229941085
+MeshRenderer:
+  m_GameObject: {fileID: 1336021478519242}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: aaeffdd3295bb664493e8b36541ef6da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

@@ -1,0 +1,761 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1851497503512945}
+  m_IsPrefabParent: 1
+--- !u!1 &1851497503512945
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4389601292959701}
+  - component: {fileID: 54419143097613432}
+  - component: {fileID: 65245768263104396}
+  - component: {fileID: 65394223298541913}
+  - component: {fileID: 114613113563662770}
+  - component: {fileID: 114498912611169379}
+  - component: {fileID: 114511057031076750}
+  - component: {fileID: 114794950683020780}
+  m_Layer: 14
+  m_Name: Body_LargeFireHelicopter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4389601292959701
+Transform:
+  m_GameObject: {fileID: 1851497503512945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4014646111390112}
+  - {fileID: 4038348544638339}
+  - {fileID: 4459382618906512}
+  - {fileID: 4865821556817932}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54419143097613432
+Rigidbody:
+  m_GameObject: {fileID: 1851497503512945}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 1
+  m_AngularDrag: 5
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65245768263104396
+BoxCollider:
+  m_GameObject: {fileID: 1851497503512945}
+  m_Material: {fileID: 13400000, guid: 26fec110f52a112489588bb1a1c6e6ab, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.34, y: 3.13212, z: 6.329088}
+  m_Center: {x: 0, y: 1.621878, z: -0.614716}
+--- !u!65 &65394223298541913
+BoxCollider:
+  m_GameObject: {fileID: 1851497503512945}
+  m_Material: {fileID: 13400000, guid: 26fec110f52a112489588bb1a1c6e6ab, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.36, y: 1.1476, z: 10.3343}
+  m_Center: {x: 0, y: 3.21053, z: -5.564194}
+--- !u!114 &114613113563662770
+MonoBehaviour:
+  m_GameObject: {fileID: 1851497503512945}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44318df003e9404daaeb8bfd60a14ab, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114498912611169379
+MonoBehaviour:
+  m_GameObject: {fileID: 1851497503512945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114511057031076750
+MonoBehaviour:
+  m_GameObject: {fileID: 1851497503512945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce27aecc55ab1e4fa7c9bc187a82aff, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114794950683020780
+MonoBehaviour:
+  m_GameObject: {fileID: 1851497503512945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a08beb6da4d9845ac634cc01a24185, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1164228541851468
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4014646111390112}
+  m_Layer: 14
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4014646111390112
+Transform:
+  m_GameObject: {fileID: 1164228541851468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4278038279160337}
+  m_Father: {fileID: 4389601292959701}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1700907682559164
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4278038279160337}
+  m_Layer: 14
+  m_Name: FireHelicopterBodyLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4278038279160337
+Transform:
+  m_GameObject: {fileID: 1700907682559164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4667500551049506}
+  - {fileID: 4889883126773818}
+  - {fileID: 4573166709369639}
+  - {fileID: 4245796729258940}
+  - {fileID: 4939994482320536}
+  m_Father: {fileID: 4014646111390112}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1459748302508549
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4667500551049506}
+  - component: {fileID: 33528179771689965}
+  - component: {fileID: 23820477447008982}
+  m_Layer: 14
+  m_Name: FireHelicopterBodyDecalsLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4667500551049506
+Transform:
+  m_GameObject: {fileID: 1459748302508549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4278038279160337}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33528179771689965
+MeshFilter:
+  m_GameObject: {fileID: 1459748302508549}
+  m_Mesh: {fileID: 4300000, guid: 108866b4b4afceb46a84bd15883c08bc, type: 2}
+--- !u!23 &23820477447008982
+MeshRenderer:
+  m_GameObject: {fileID: 1459748302508549}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9170892b1908f3b4e9dd7cbf56c51a64, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1140403682039434
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4889883126773818}
+  - component: {fileID: 33420940813292308}
+  - component: {fileID: 23403574483809427}
+  m_Layer: 14
+  m_Name: FireHelicopterBodyLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4889883126773818
+Transform:
+  m_GameObject: {fileID: 1140403682039434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4278038279160337}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33420940813292308
+MeshFilter:
+  m_GameObject: {fileID: 1140403682039434}
+  m_Mesh: {fileID: 4300000, guid: f61ce740efeb9ca4d9d3da3dbd521cda, type: 2}
+--- !u!23 &23403574483809427
+MeshRenderer:
+  m_GameObject: {fileID: 1140403682039434}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1405235114858563
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4573166709369639}
+  - component: {fileID: 33015426214705453}
+  - component: {fileID: 23031199492088218}
+  - component: {fileID: 111966998913360148}
+  m_Layer: 14
+  m_Name: FireHelicopterBodyRearBladesLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4573166709369639
+Transform:
+  m_GameObject: {fileID: 1405235114858563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9488503, y: 2.984371, z: -7.700564}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4278038279160337}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33015426214705453
+MeshFilter:
+  m_GameObject: {fileID: 1405235114858563}
+  m_Mesh: {fileID: 4300000, guid: a07e4b5f3d9748d4fb309b5f081a86a5, type: 2}
+--- !u!23 &23031199492088218
+MeshRenderer:
+  m_GameObject: {fileID: 1405235114858563}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111966998913360148
+Animation:
+  m_GameObject: {fileID: 1405235114858563}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 6d465900da35edd4881a923a72239aca, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1107932450816083
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4245796729258940}
+  - component: {fileID: 33948291172359932}
+  - component: {fileID: 23180783737902730}
+  m_Layer: 14
+  m_Name: FireHelicopterBodyTransparencyLarge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4245796729258940
+Transform:
+  m_GameObject: {fileID: 1107932450816083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4278038279160337}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33948291172359932
+MeshFilter:
+  m_GameObject: {fileID: 1107932450816083}
+  m_Mesh: {fileID: 4300000, guid: b7240d11f75d8be4bad82b186b72df90, type: 2}
+--- !u!23 &23180783737902730
+MeshRenderer:
+  m_GameObject: {fileID: 1107932450816083}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: aaeffdd3295bb664493e8b36541ef6da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1986649582855518
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4939994482320536}
+  - component: {fileID: 33631042043863969}
+  - component: {fileID: 23785468101181665}
+  m_Layer: 14
+  m_Name: jetSkiStaticMinifig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4939994482320536
+Transform:
+  m_GameObject: {fileID: 1986649582855518}
+  m_LocalRotation: {x: 0, y: 0.7071071, z: 0, w: 0.7071066}
+  m_LocalPosition: {x: 0, y: 1.934, z: 2.973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4278038279160337}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -89.99996, z: 0}
+--- !u!33 &33631042043863969
+MeshFilter:
+  m_GameObject: {fileID: 1986649582855518}
+  m_Mesh: {fileID: 4300000, guid: 94a56fe28acd718469d087763289fb22, type: 2}
+--- !u!23 &23785468101181665
+MeshRenderer:
+  m_GameObject: {fileID: 1986649582855518}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 89310532e43a55b428984d68fcdec582, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1633861399975602
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4038348544638339}
+  m_Layer: 14
+  m_Name: Connectors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4038348544638339
+Transform:
+  m_GameObject: {fileID: 1633861399975602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4688882436004884}
+  - {fileID: 4497408352497714}
+  - {fileID: 4740000070782114}
+  - {fileID: 4822119358032906}
+  - {fileID: 4253442733629778}
+  - {fileID: 4794036367586242}
+  - {fileID: 4369078079251164}
+  - {fileID: 4828390045023649}
+  - {fileID: 4779170445916270}
+  - {fileID: 4864896095219082}
+  m_Father: {fileID: 4389601292959701}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1259145086795858
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4688882436004884}
+  m_Layer: 14
+  m_Name: front
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4688882436004884
+Transform:
+  m_GameObject: {fileID: 1259145086795858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.306, z: 2.585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1497851373368396
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4497408352497714}
+  m_Layer: 14
+  m_Name: top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4497408352497714
+Transform:
+  m_GameObject: {fileID: 1497851373368396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.629, z: -1.976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1846021086940705
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4740000070782114}
+  m_Layer: 14
+  m_Name: back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4740000070782114
+Transform:
+  m_GameObject: {fileID: 1846021086940705}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.629207E-07}
+  m_LocalPosition: {x: 0, y: 2.94, z: -9.96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 1.866934E-05, z: 180}
+--- !u!1 &1502481197009124
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4822119358032906}
+  m_Layer: 14
+  m_Name: backSideL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4822119358032906
+Transform:
+  m_GameObject: {fileID: 1502481197009124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.844, y: 3.61, z: -2.726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1475101981677779
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4253442733629778}
+  m_Layer: 14
+  m_Name: backSideR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4253442733629778
+Transform:
+  m_GameObject: {fileID: 1475101981677779}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.844, y: 3.61, z: -2.726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1056739777643211
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4794036367586242}
+  m_Layer: 14
+  m_Name: frontSideL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4794036367586242
+Transform:
+  m_GameObject: {fileID: 1056739777643211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.128, y: 1.301, z: 1.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1833893109165927
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4369078079251164}
+  m_Layer: 14
+  m_Name: frontSideR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4369078079251164
+Transform:
+  m_GameObject: {fileID: 1833893109165927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.128, y: 1.301, z: 1.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1108056196775283
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4828390045023649}
+  m_Layer: 14
+  m_Name: hoseSimple
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4828390045023649
+Transform:
+  m_GameObject: {fileID: 1108056196775283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.735, z: 0.035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1464452372246957
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4779170445916270}
+  m_Layer: 14
+  m_Name: wingL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4779170445916270
+Transform:
+  m_GameObject: {fileID: 1464452372246957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.145, y: 1.72, z: -1.571}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1087999143349030
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4864896095219082}
+  m_Layer: 14
+  m_Name: wingR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4864896095219082
+Transform:
+  m_GameObject: {fileID: 1087999143349030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.145, y: 1.72, z: -1.571}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4038348544638339}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1448319938778278
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4459382618906512}
+  m_Layer: 14
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4459382618906512
+Transform:
+  m_GameObject: {fileID: 1448319938778278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.09, z: -2.65}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4389601292959701}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1113236107011814
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4865821556817932}
+  m_Layer: 14
+  m_Name: FacePos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4865821556817932
+Transform:
+  m_GameObject: {fileID: 1113236107011814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.809, z: 1.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4389601292959701}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

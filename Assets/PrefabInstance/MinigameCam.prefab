@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1692543420196295}
+  m_IsPrefabParent: 1
+--- !u!1 &1692543420196295
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4293184066159484}
+  - component: {fileID: 20393273896938111}
+  - component: {fileID: 92769514105084450}
+  - component: {fileID: 124102823241367963}
+  - component: {fileID: 114808373223503319}
+  - component: {fileID: 114606497564032312}
+  m_Layer: 0
+  m_Name: MinigameCam
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4293184066159484
+Transform:
+  m_GameObject: {fileID: 1692543420196295}
+  m_LocalRotation: {x: 0.2326535, y: 3.09797E-08, z: -1.295042E-07, w: 0.9725597}
+  m_LocalPosition: {x: -102.7, y: 7.01, z: 128.98}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4191328132779024}
+  - {fileID: 4951207096148815}
+  - {fileID: 4437167601563438}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 26.90669, y: -6.905197E-06, z: 1.360695E-05}
+--- !u!20 &20393273896938111
+Camera:
+  m_GameObject: {fileID: 1692543420196295}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.1921569, g: 0.3019608, b: 0.4745098, a: 0.01960784}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 70
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4194270719
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!92 &92769514105084450
+GUILayer:
+  m_GameObject: {fileID: 1692543420196295}
+  m_Enabled: 1
+--- !u!124 &124102823241367963
+FlareLayer:
+  m_GameObject: {fileID: 1692543420196295}
+  m_Enabled: 1
+--- !u!114 &114808373223503319
+MonoBehaviour:
+  m_GameObject: {fileID: 1692543420196295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e2a0b3dd1d61f4cb1c74438633ddb8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114606497564032312
+MonoBehaviour:
+  m_GameObject: {fileID: 1692543420196295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a317a32e0a56eee438ccfb903f1b1ac3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1352023971686109
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4191328132779024}
+  - component: {fileID: 114313677917651470}
+  m_Layer: 0
+  m_Name: curvedPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4191328132779024
+Transform:
+  m_GameObject: {fileID: 1352023971686109}
+  m_LocalRotation: {x: 0.08283704, y: 0, z: 0, w: 0.9965631}
+  m_LocalPosition: {x: 0, y: 9.1, z: 26.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4293184066159484}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 9.503315, y: 0, z: 0}
+--- !u!114 &114313677917651470
+MonoBehaviour:
+  m_GameObject: {fileID: 1352023971686109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5512fcf6057f224480cd2d2f93a1978, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1372182774279907
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4951207096148815}
+  - component: {fileID: 20247894246148241}
+  - component: {fileID: 114336875739887854}
+  m_Layer: 0
+  m_Name: WaterVehicleSpecialRender1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4951207096148815
+Transform:
+  m_GameObject: {fileID: 1372182774279907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4293184066159484}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20247894246148241
+Camera:
+  m_GameObject: {fileID: 1372182774279907}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.1921569, g: 0.3019608, b: 0.4745098, a: 0.01960784}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 5
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 33554432
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &114336875739887854
+MonoBehaviour:
+  m_GameObject: {fileID: 1372182774279907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018563c6402999f46ac152b547db118f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1822230907792564
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4437167601563438}
+  - component: {fileID: 20087559459164066}
+  - component: {fileID: 114487320878069772}
+  m_Layer: 0
+  m_Name: WaterVehicleSpecialRender2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4437167601563438
+Transform:
+  m_GameObject: {fileID: 1822230907792564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4293184066159484}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20087559459164066
+Camera:
+  m_GameObject: {fileID: 1822230907792564}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.1921569, g: 0.3019608, b: 0.4745098, a: 0.01960784}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 10
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 67108864
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &114487320878069772
+MonoBehaviour:
+  m_GameObject: {fileID: 1822230907792564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018563c6402999f46ac152b547db118f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

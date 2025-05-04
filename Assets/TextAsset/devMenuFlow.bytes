@@ -1,0 +1,109 @@
+{
+	"StartLocation": "DevMenu",
+	"DevMenu": {
+		"screen": "DevMenuScreen",
+		"scene": {
+			"clearSceneOnEnter": true
+		},
+		"CacheInterstitialLocation":"Main Menu",
+		"links": [
+			{
+				"link": "FPSTest",
+				"location": "FPSTest"
+			},
+			{
+				"link": "BuildingTest",
+				"location": "BuildingTest"
+			},
+			{
+				"link": "TapJoyTest",
+				"location": "TapJoyTest"
+			},
+			{
+				"link": "GooglePlayServicesMenu",
+				"location": "GooglePlayServicesMenu"
+			},
+			{
+				"link": "AdMobMenu",
+				"location": "AdMobMenu"
+			},
+			{
+				"link": "AdRallyMenu",
+				"location": "AdRallyMenu"
+			},
+			{
+				"link": "SkinnedTest",
+				"location": "SkinnedTest"
+			},
+			{
+				"link": "UnskinnedTestGoreShader",
+				"location": "UnskinnedTestGoreShader"
+			},
+			{
+				"link": "SkinnedTestGoreShader",
+				"location": "SkinnedTestGoreShader"
+			},
+			{
+				"link": "UnskinnedTestNavMesh",
+				"location": "UnskinnedTestNavMesh"
+			},
+			{
+				"link": "SkinnedTestNavMesh",
+				"location": "SkinnedTestNavMesh"
+			},
+			{
+				"link": "SkinnedAnimatedNavMeshTest",
+				"location": "SkinnedAnimatedNavMeshTest"
+			}
+		]
+	},
+	"AdRallyMenu": {
+		"screen": "GameScreen",
+		"scene": "AdRallyTest"
+	},
+	"AdMobMenu": {
+		"screen": "GameScreen",
+		"scene": "AdMobTest"
+	},
+	"GooglePlayServicesMenu": {
+		"screen": "GooglePlayServicesMenu",
+		"scene": "Empty"
+	},
+	"FPSTest": {
+		"screen": "GameScreen",
+		"scene": "FPS test",
+		"ShowInterstitialLocation":"Main Menu"
+	},
+	"BuildingTest": {
+		"screen": "BuildingTestScreen",
+		"scene": "Buildingtest"
+	},
+	"TapJoyTest": {
+		"screen": "GameScreen",
+		"scene": "TapjoySampleScene"
+	},
+	"SkinnedTest": {
+		"screen": "GameScreen",
+		"scene": "Skinned test"
+	},
+	"UnskinnedTestGoreShader": {
+		"screen": "GameScreen",
+		"scene": "Unskinned test with gore shader"
+	},
+	"SkinnedTestGoreShader": {
+		"screen": "GameScreen",
+		"scene": "Skinned test with gore shader"
+	},
+	"UnskinnedTestNavMesh": {
+		"screen": "GameScreen",
+		"scene": "Unskinned test with NavMesh"
+	},
+	"SkinnedTestNavMesh": {
+		"screen": "GameScreen",
+		"scene": "Skinned test with NavMesh"
+	},
+	"SkinnedAnimatedNavMeshTest": {
+		"screen": "GameScreen",
+		"scene": "Skinned test with Animation and NavMesh"
+	}
+}

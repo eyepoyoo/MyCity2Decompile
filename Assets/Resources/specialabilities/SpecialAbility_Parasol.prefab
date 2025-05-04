@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1941583259832225}
+  m_IsPrefabParent: 1
+--- !u!1 &1941583259832225
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4387293782337825}
+  - component: {fileID: 114693973323111418}
+  - component: {fileID: 114997252316894550}
+  m_Layer: 17
+  m_Name: SpecialAbility_Parasol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4387293782337825
+Transform:
+  m_GameObject: {fileID: 1941583259832225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4058205197617865}
+  - {fileID: 4042354657465216}
+  - {fileID: 4669740178004899}
+  - {fileID: 4314979292800487}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114693973323111418
+MonoBehaviour:
+  m_GameObject: {fileID: 1941583259832225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4fd7c242c7a15347b4d2f9f23ca8f2e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114997252316894550
+MonoBehaviour:
+  m_GameObject: {fileID: 1941583259832225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1999683116867887
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4058205197617865}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4058205197617865
+Transform:
+  m_GameObject: {fileID: 1999683116867887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.181, y: 0.891, z: -0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4387293782337825}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1481174442714361
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4042354657465216}
+  - component: {fileID: 64698082251507291}
+  m_Layer: 17
+  m_Name: ColliderBody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042354657465216
+Transform:
+  m_GameObject: {fileID: 1481174442714361}
+  m_LocalRotation: {x: 0, y: 0.1750231, z: 0, w: 0.9845644}
+  m_LocalPosition: {x: -0.219, y: 0.902, z: 0.009}
+  m_LocalScale: {x: 0.06153844, y: 0.1221061, z: 0.06153843}
+  m_Children: []
+  m_Father: {fileID: 4387293782337825}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -20.16001, z: 0}
+--- !u!64 &64698082251507291
+MeshCollider:
+  m_GameObject: {fileID: 1481174442714361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 00aed882ffad2c345b169449556c9209, type: 2}
+--- !u!1 &1926719342429286
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4669740178004899}
+  m_Layer: 17
+  m_Name: ForcePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4669740178004899
+Transform:
+  m_GameObject: {fileID: 1926719342429286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.181, y: 1.615, z: -0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4387293782337825}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1553801495579090
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4314979292800487}
+  m_Layer: 17
+  m_Name: HotDogStandAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4314979292800487
+Transform:
+  m_GameObject: {fileID: 1553801495579090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.182, y: -0.002, z: -0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4860151246538747}
+  - {fileID: 4759241350683435}
+  m_Father: {fileID: 4387293782337825}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1145045963093777
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4860151246538747}
+  - component: {fileID: 111406565339074218}
+  m_Layer: 17
+  m_Name: Parasol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4860151246538747
+Transform:
+  m_GameObject: {fileID: 1145045963093777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.809, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4438260950715221}
+  m_Father: {fileID: 4314979292800487}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &111406565339074218
+Animation:
+  m_GameObject: {fileID: 1145045963093777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 2f517ae383f4eb0428e27f07bc99b79d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1763158515991761
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4438260950715221}
+  - component: {fileID: 33501550746990314}
+  - component: {fileID: 23616606676011490}
+  - component: {fileID: 111130848733637440}
+  m_Layer: 17
+  m_Name: HotDogStandAccessory_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4438260950715221
+Transform:
+  m_GameObject: {fileID: 1763158515991761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.003428578, y: -0.2875773, z: 0.001402467}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4860151246538747}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33501550746990314
+MeshFilter:
+  m_GameObject: {fileID: 1763158515991761}
+  m_Mesh: {fileID: 4300000, guid: b9a04996b1d2b2a42a42ab6873501d1f, type: 2}
+--- !u!23 &23616606676011490
+MeshRenderer:
+  m_GameObject: {fileID: 1763158515991761}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111130848733637440
+Animation:
+  m_GameObject: {fileID: 1763158515991761}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1715932597943606
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4759241350683435}
+  - component: {fileID: 33995937948159685}
+  - component: {fileID: 23286338569445436}
+  m_Layer: 17
+  m_Name: HotDogStandAccessory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4759241350683435
+Transform:
+  m_GameObject: {fileID: 1715932597943606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4314979292800487}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33995937948159685
+MeshFilter:
+  m_GameObject: {fileID: 1715932597943606}
+  m_Mesh: {fileID: 4300000, guid: 4b4d86c1219fc3f46a98e1640bf94ecd, type: 2}
+--- !u!23 &23286338569445436
+MeshRenderer:
+  m_GameObject: {fileID: 1715932597943606}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

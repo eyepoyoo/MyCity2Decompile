@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1241217468989549}
+  m_IsPrefabParent: 1
+--- !u!1 &1241217468989549
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4538139430914243}
+  - component: {fileID: 114206031255868107}
+  - component: {fileID: 111456742718685625}
+  m_Layer: 17
+  m_Name: SkyHook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4538139430914243
+Transform:
+  m_GameObject: {fileID: 1241217468989549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 111.1453, y: -1.88321, z: -66.70713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4047126658824061}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114206031255868107
+MonoBehaviour:
+  m_GameObject: {fileID: 1241217468989549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83112f713278c9a4d8a1f0e2f6ee97d6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!111 &111456742718685625
+Animation:
+  m_GameObject: {fileID: 1241217468989549}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 9f92fbc82786faa46afeaaa53ee17d83, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1583857268587336
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4047126658824061}
+  m_Layer: 17
+  m_Name: Rope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4047126658824061
+Transform:
+  m_GameObject: {fileID: 1583857268587336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4913018434587106}
+  m_Father: {fileID: 4538139430914243}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1981837206337824
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4913018434587106}
+  - component: {fileID: 33477266487939322}
+  - component: {fileID: 23948007838221637}
+  m_Layer: 17
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4913018434587106
+Transform:
+  m_GameObject: {fileID: 1981837206337824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 25, z: -0.38}
+  m_LocalScale: {x: 0.1, y: 50, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 4047126658824061}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33477266487939322
+MeshFilter:
+  m_GameObject: {fileID: 1981837206337824}
+  m_Mesh: {fileID: 4300000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+--- !u!23 &23948007838221637
+MeshRenderer:
+  m_GameObject: {fileID: 1981837206337824}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2466375b450891245a0a06d806b30247, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

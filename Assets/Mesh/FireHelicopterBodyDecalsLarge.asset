@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: FireHelicopterBodyDecalsLarge
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 90
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 46
+    localAABB:
+      m_Center: {x: -0.0002503991, y: 3.053295, z: -3.080317}
+      m_Extent: {x: 1.158868, y: 1.713154, z: 5.999331}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 2
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 138
+      m_Range: 13.8461
+      m_Start: -9.079648
+      m_Data: f4a893fe510df4a868e69225f4a868e66512f4a8e2e81b0cf4a8cffe0000f4a8ffffea09f4a8f7ff990000a7e2e81b0c00a768e6651200a768e6922500a793fe510d00a7cffe000000a7ffffea0900a7f7ff99009292a4d76cc19292a4d71ba7929270cb1ba7929270cb6cc1a59285d830d1a59285d8bad09f92adc0bad09f92adc0d7dd7192abc06286a392a6c0098aa392e3d9098af39240c8ab7ff592dad9be7f2f93d6d9e6794f9321cf98791d95ddd94c701fbda4d76cc11fbd70cb6cc11fbd70cb1ba71fbda4d71ba719bde3d9098a19bdaac0098a4bbdaac06286c8bc44c8ab7fc7bcd9d9be7f8dbcd6d9e6796dbc25cf98799ebaddd94c7014bd85d830d11abdadc0d7dd1abdadc0bad014bd85d8bad0
+      m_BitSize: 16
+    m_UV:
+      m_NumItems: 92
+      m_Range: 0.9798366
+      m_Start: 0.01166019
+      m_Data: dd4b49673e741e88e997d66b3c7fa1f23f0cd79095d197593922bce8c1bd0d882900bb1b86b37f38fb03b02100cac1a1dc191f70d1415b09dc9ec0fff6f12fcaccf9c97cdfaf29ed6adf80fb87b33f001b02b0613808f25ffffff5dfcef5cc05ca7ce0afd5ee8ae080cac1d1415b1f70a1dc19
+      m_BitSize: 10
+    m_Normals:
+      m_NumItems: 92
+      m_Range: 1.999985
+      m_Start: -0.9999924
+      m_Data: ff80ff80ff80ff80ff80ff80ff8000800080008000800080008000800080008000800080008000800080008000800080008000800080017f007f037fff80ff80ff80ff80ff80ff80ff80ff80ff80fe7fff7ffc7fff80ff80ff80ff80
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 92
+      m_Range: 1.999957
+      m_Start: -0.9999817
+      m_Data: 80ff80ff80ff80ff80ff80ff80fe8000800580008000800080008001808080808080808080ff80ff80ff80ff80ff80ff80ff80ff80ff7fff7fff7fff8080808080808080800080008000800080007f007f007f007fff7fff7fff7fff
+      m_BitSize: 8
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 46
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 92
+      m_Data: 55415505005055550500a00a
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 90
+      m_Data: 40200803301000510084511c48922887b21c0ab330cde23c900345d2444954655d189659989665da966d1cb775de077a60288e24598aa52996a759a2279a9eeacaaa6c0b
+      m_BitSize: 6
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: -0.0002503991, y: 3.053295, z: -3.080317}
+    m_Extent: {x: 1.158868, y: 1.713154, z: 5.999331}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

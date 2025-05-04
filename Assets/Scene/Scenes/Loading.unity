@@ -1,0 +1,3973 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &28
+RenderSettings:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!157 &29
+LightmapSettings:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 1
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 112000000, guid: e6ca084135cfc034fad0d3ddaf99b2fd, type: 2}
+  m_RuntimeCPUUsage: 25
+--- !u!1 &1
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 14}
+  - 114: {fileID: 45}
+  m_Layer: 0
+  m_Name: DailyRewardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 15}
+  - 114: {fileID: 40}
+  m_Layer: 0
+  m_Name: RewardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 16}
+  - 114: {fileID: 47}
+  - 114: {fileID: 37}
+  - 114: {fileID: 48}
+  - 114: {fileID: 49}
+  m_Layer: 0
+  m_Name: AchievementSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 17}
+  - 114: {fileID: 33}
+  m_Layer: 0
+  m_Name: ScenarioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 18}
+  - 114: {fileID: 46}
+  m_Layer: 0
+  m_Name: MinigameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 19}
+  - 20: {fileID: 27}
+  m_Layer: 0
+  m_Name: Clear Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 20}
+  - 114: {fileID: 32}
+  m_Layer: 0
+  m_Name: 24. ExternalMessageHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 21}
+  - 114: {fileID: 36}
+  m_Layer: 0
+  m_Name: VehiclePartManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &9
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 22}
+  - 114: {fileID: 31}
+  - 114: {fileID: 30}
+  m_Layer: 0
+  m_Name: 23. Session Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &10
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 23}
+  - 114: {fileID: 34}
+  - 114: {fileID: 35}
+  m_Layer: 0
+  m_Name: 22. Flow Facade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &11
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 24}
+  - 114: {fileID: 38}
+  m_Layer: 0
+  m_Name: 20. LoadingScreenLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &12
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 25}
+  - 114: {fileID: 41}
+  m_Layer: 0
+  m_Name: 21a. LEGOSDK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &13
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 26}
+  - 114: {fileID: 39}
+  - 114: {fileID: 44}
+  - 114: {fileID: 43}
+  - 114: {fileID: 42}
+  m_Layer: 0
+  m_Name: LEGOID
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &15
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7701925, y: -1.1173129, z: 8.150625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &16
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &17
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4044077, y: -0.19977006, z: 2.3018222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &18
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7701925, y: -1.1173129, z: 8.150625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &19
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &20
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &21
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -87.942116, y: 44.759884, z: -7.098931}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &22
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &23
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &24
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &25
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -113.80033, y: -0.37654835, z: -234.12267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &26
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -113.80033, y: -0.37654835, z: -234.12267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!20 &27
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!114 &30
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f66d75a8d348d7074b91d9f48f407b5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 34}
+  trustedDomains: []
+  allowAllDomains: 1
+  onCompleteSignals:
+    onlyOnce: 0
+    receivers: []
+--- !u!114 &31
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b69a1166a658d92cc3bb32a52ffecc7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &32
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd0af5e6685776eee12f930525ffd73, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 30}
+  selectedSaveKey: 0
+  inputUserId:
+  inputUsername:
+  doAutoFail: 0
+--- !u!114 &33
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c7144ae4a005280352b2e3372e9e64, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  allScenarios:
+  - totalBricksRequired: 2000
+    scenarioName: Scenario.Name_FireStation
+    scenarioDescription: Scenario.Text_FireStation
+    scenarioDescriptionComplete: Scenario.Text_FireStation
+    building: 1
+    isAvailable: 1
+    scenarioMinifigTexture: {fileID: 2800000, guid: a809465b630aa85428ffdfceab77ea12, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: 85097b946704b804daad374d75e89763, type: 3}
+    scenarioTextureWide: 0
+    brickType: 0
+    brickMaterial: {fileID: 2100000, guid: 02907c082376a87429db018e622e4581, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: 959f89f4152d0134a8f7d9f3bcc24c78, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: eb88e284fba41c84e941bb430c402492, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 4431bf53dd84ba948a20172bce7bc517, type: 2}
+  - totalBricksRequired: 1000
+    scenarioName: Scenario.Name_Lighthouse
+    scenarioDescription: Scenario.Text_Lighthouse
+    scenarioDescriptionComplete: Scenario.Text_Lighthouse
+    building: 2
+    isAvailable: 1
+    scenarioMinifigTexture: {fileID: 2800000, guid: a809465b630aa85428ffdfceab77ea12, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: 86995b069366828429150c800f85597e, type: 3}
+    scenarioTextureWide: 0
+    brickType: 0
+    brickMaterial: {fileID: 2100000, guid: 02907c082376a87429db018e622e4581, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: 959f89f4152d0134a8f7d9f3bcc24c78, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: eb88e284fba41c84e941bb430c402492, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 4431bf53dd84ba948a20172bce7bc517, type: 2}
+  - totalBricksRequired: 750
+    scenarioName: Scenario.Name_Fire_Containers
+    scenarioDescription: Scenario.Text_Fire_Containers
+    scenarioDescriptionComplete: Scenario.Text_Fire_Containers
+    building: 3
+    isAvailable: 0
+    scenarioMinifigTexture: {fileID: 2800000, guid: a809465b630aa85428ffdfceab77ea12, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: dd387bcfeabdd154c930c346af043d67, type: 3}
+    scenarioTextureWide: 0
+    brickType: 0
+    brickMaterial: {fileID: 2100000, guid: 02907c082376a87429db018e622e4581, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: 959f89f4152d0134a8f7d9f3bcc24c78, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: eb88e284fba41c84e941bb430c402492, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 4431bf53dd84ba948a20172bce7bc517, type: 2}
+  - totalBricksRequired: 2000
+    scenarioName: Scenario.Name_Police_Island_HQ
+    scenarioDescription: Scenario.Text_Police_Island_HQ
+    scenarioDescriptionComplete: Scenario.Text_Police_Island_HQ
+    building: 4
+    isAvailable: 1
+    scenarioMinifigTexture: {fileID: 2800000, guid: 847504f6099d5a946ab96bfc9e12ed3b, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: 9ae5e2b6a0384d445b9d9abaec2e77c3, type: 3}
+    scenarioTextureWide: 0
+    brickType: 1
+    brickMaterial: {fileID: 2100000, guid: e19c97ff1cb6f094a81de9a182334c90, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: b7395c5c77c515c48b8c3aded1946c74, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: b719f9b7fbca79447bbf342d84d9a5cc, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 1a1fe0351e195f84081d2c2cbb92522e, type: 2}
+  - totalBricksRequired: 1000
+    scenarioName: Scenario.Name_Police_Boats
+    scenarioDescription: Scenario.Text_Police_Boats
+    scenarioDescriptionComplete: Scenario.Text_Police_Boats
+    building: 5
+    isAvailable: 0
+    scenarioMinifigTexture: {fileID: 2800000, guid: 847504f6099d5a946ab96bfc9e12ed3b, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: d2cc0279205b5a144939acae420cea09, type: 3}
+    scenarioTextureWide: 1
+    brickType: 1
+    brickMaterial: {fileID: 2100000, guid: e19c97ff1cb6f094a81de9a182334c90, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: b7395c5c77c515c48b8c3aded1946c74, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: b719f9b7fbca79447bbf342d84d9a5cc, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 1a1fe0351e195f84081d2c2cbb92522e, type: 2}
+  - totalBricksRequired: 750
+    scenarioName: Scenario.Name_Jetski_Patrol
+    scenarioDescription: Scenario.Text_Jetski_Patrol
+    scenarioDescriptionComplete: Scenario.Text_Jetski_Patrol
+    building: 6
+    isAvailable: 1
+    scenarioMinifigTexture: {fileID: 2800000, guid: 847504f6099d5a946ab96bfc9e12ed3b, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: 72c0edd65e05fa14a8802315455965bb, type: 3}
+    scenarioTextureWide: 1
+    brickType: 1
+    brickMaterial: {fileID: 2100000, guid: e19c97ff1cb6f094a81de9a182334c90, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: b7395c5c77c515c48b8c3aded1946c74, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: b719f9b7fbca79447bbf342d84d9a5cc, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 1a1fe0351e195f84081d2c2cbb92522e, type: 2}
+  - totalBricksRequired: 2000
+    scenarioName: Scenario.Name_HelicopterRequested
+    scenarioDescription: Scenario.Text_HelicopterRequested
+    scenarioDescriptionComplete: Scenario.Text_HelicopterRequested
+    building: 7
+    isAvailable: 1
+    scenarioMinifigTexture: {fileID: 2800000, guid: fff05737c25908843a4cd2adf0990b64, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: bcbb1b61ecea79643bc8db09e6884668, type: 3}
+    scenarioTextureWide: 0
+    brickType: 2
+    brickMaterial: {fileID: 2100000, guid: 0cff020308064b44f8757bcbbd568cd5, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: cab718d4e38318f4b91420986a99b802, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: de23e61093faf574fa607cd964ddba5b, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: f8c33bd88b8757148a8b0d4e008cc955, type: 2}
+  - totalBricksRequired: 1000
+    scenarioName: Scenario.Name_Lab
+    scenarioDescription: Scenario.Text_Lab
+    scenarioDescriptionComplete: Scenario.Text_Lab
+    building: 8
+    isAvailable: 0
+    scenarioMinifigTexture: {fileID: 2800000, guid: fff05737c25908843a4cd2adf0990b64, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: 02fac31a484bb6a429c2e7f5c23b7768, type: 3}
+    scenarioTextureWide: 0
+    brickType: 2
+    brickMaterial: {fileID: 2100000, guid: 0cff020308064b44f8757bcbbd568cd5, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: cab718d4e38318f4b91420986a99b802, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: de23e61093faf574fa607cd964ddba5b, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: f8c33bd88b8757148a8b0d4e008cc955, type: 2}
+  - totalBricksRequired: 750
+    scenarioName: Scenario.Name_MobileLab
+    scenarioDescription: Scenario.Text_MobileLab
+    scenarioDescriptionComplete: Scenario.Text_MobileLab
+    building: 9
+    isAvailable: 1
+    scenarioMinifigTexture: {fileID: 2800000, guid: fff05737c25908843a4cd2adf0990b64, type: 3}
+    scenarioTexture: {fileID: 2800000, guid: 601c1f2245848114ea31772bf672188a, type: 3}
+    scenarioTextureWide: 0
+    brickType: 2
+    brickMaterial: {fileID: 2100000, guid: 0cff020308064b44f8757bcbbd568cd5, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: cab718d4e38318f4b91420986a99b802, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: de23e61093faf574fa607cd964ddba5b, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: f8c33bd88b8757148a8b0d4e008cc955, type: 2}
+  - totalBricksRequired: 2000
+    scenarioName: Scenario.Name_Airport1
+    scenarioDescription: Scenario.Text_Airport1
+    scenarioDescriptionComplete: Scenario.Text_Airport1
+    building: 10
+    isAvailable: 0
+    scenarioMinifigTexture: {fileID: 2800000, guid: 8776bd96fdc3370429e137088293f709, type: 3}
+    scenarioTexture: {fileID: 0}
+    scenarioTextureWide: 0
+    brickType: 3
+    brickMaterial: {fileID: 2100000, guid: f4b3d31c204240e4eb1b03b013a22298, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: 3a7203011d5b0d14dbb4d64962eb5516, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: 1a865d8da4f231342ac7f56b25728097, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 67ba5cc11e9fd4146869dbefa3496398, type: 2}
+  - totalBricksRequired: 1000
+    scenarioName: Scenario.Name_Airport2
+    scenarioDescription: Scenario.Text_Airport2
+    scenarioDescriptionComplete: Scenario.Text_Airport2
+    building: 11
+    isAvailable: 0
+    scenarioMinifigTexture: {fileID: 2800000, guid: 8776bd96fdc3370429e137088293f709, type: 3}
+    scenarioTexture: {fileID: 0}
+    scenarioTextureWide: 0
+    brickType: 3
+    brickMaterial: {fileID: 2100000, guid: f4b3d31c204240e4eb1b03b013a22298, type: 2}
+    brickMaterialHighRes: {fileID: 2100000, guid: 3a7203011d5b0d14dbb4d64962eb5516, type: 2}
+    guiStudMaterial: {fileID: 2100000, guid: 1a865d8da4f231342ac7f56b25728097, type: 2}
+    inGameStudMaterial: {fileID: 2100000, guid: 67ba5cc11e9fd4146869dbefa3496398, type: 2}
+--- !u!114 &34
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d0665c14ff2e7dd635c6ee30028bc3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 39}
+  ShowFlowDebug: 1
+  _isOldGlobalLinkBehaviour: 0
+  _isHandleBackButton: 0
+  _flowSourceData: {fileID: 4900000, guid: bed2b42e046c9d54a8d543d7a3b19ab5, type: 3}
+  _flowVarPrefix: '['
+  _flowVarSuffix: ']'
+  _subFlowSources:
+  - _flowId: devMenuFlow
+    _flowSrc: {fileID: 4900000, guid: ef38d00e64f743044a3200e19aa2b7e7, type: 3}
+--- !u!114 &35
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8b19c7782251893c282fce11212d78, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _defaultLoadingLocation: LegalLoading
+  _emptyScene: Empty
+  _checkSceneInitialization: 1
+  _isDebugSceneLoadBlocking: 0
+--- !u!114 &36
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010d40315a53f21185bc92d73a7aedae, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  allVehiclePartPrefabs: []
+  allVehiclePartProperties:
+  - _resourceString: Attachments/Water/Attachment_LargePoliceBoatBridge
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Water/Attachment_LargePoliceBoatBridge.prefab
+    uniqueID: 15
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 0.9
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1, y: 0.1, z: 0.1}
+    carouselNormalScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselSelectedScale: {x: 1, y: 1, z: 1}
+    carouselPreviewScale: {x: 1.4, y: 1.4, z: 1.4}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceBoatCabin
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_PoliceCar
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_PoliceCar.prefab
+    uniqueID: 3
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.45
+    unlockWeight: 1
+    minimumLevelToUnlock: 10
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceCarBody
+    partsThatAppearInSecondCarouselPart: 0a000000090000000b000000210000004400000035000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d000000420000003f0000001400000010000000080000001e00000033000000
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_Portaloo
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_Portaloo.prefab
+    uniqueID: 4
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 0100000002000000
+    carouselHeightOffset: 0.99
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.18, y: 0.18, z: 0.18}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PortALooBody
+    partsThatAppearInSecondCarouselPart: 090000000a0000000b0000002100000044000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d000000420000003f00000014000000100000000800000033000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts:
+    - _type: 1
+      _partProperties:
+        _resourceString: Bodies/Air/Body_PortalooAir
+        _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_PortalooAir.prefab
+        uniqueID: 4
+        slotType: 1
+        connectionType: 0
+        vehicleTypeCategories: 0100000002000000
+        carouselHeightOffset: 0.99
+        unlockWeight: 1
+        minimumLevelToUnlock: 0
+        brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+        carouselNormalScale: {x: 1, y: 1, z: 1}
+        carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+        carouselPreviewScale: {x: 1, y: 1, z: 1}
+        completedBuildScale: {x: 1, y: 1, z: 1}
+        _completedCameraZoomFactor: 1.5
+        carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+        partIsAvailable: 1
+        localisationKey: VehiclePiece.PortALooBody
+        partsThatAppearInSecondCarouselPart: 2f0000001900000018000000
+        partsThatAppaerInThirdCarouselPart: 330000003e0000003f000000
+        _negatedObstacles:
+        turbulenceToleranceOverride: -1
+        secondaryFlippedPart: {fileID: 0}
+        _minigameCamDistScale: 1
+        _animateWhenAttached: 0
+        _soundToPlayOnAttached:
+  - _resourceString: SpecialAbilities/SpecialAbility_SirenMast
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_SirenMast.prefab
+    uniqueID: 20
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.82
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.25, y: 0.25, z: 0.25}
+    carouselNormalScale: {x: 1.8, y: 1.8, z: 1.8}
+    carouselSelectedScale: {x: 2, y: 2, z: 2}
+    carouselPreviewScale: {x: 2.8, y: 2.8, z: 2.8}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 359.88, y: 3389, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.SirenMast
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 05000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: GUIAttachmentSiren
+    _altParts: []
+  - _resourceString: Bodies/Water/Body_LargePoliceBoat
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Water/Body_LargePoliceBoat.prefab
+    uniqueID: 14
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 1.01
+    unlockWeight: 1
+    minimumLevelToUnlock: 10
+    brickBagRewardScale: {x: 0.07534315, y: 0.07534315, z: 0.07534315}
+    carouselNormalScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselSelectedScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselPreviewScale: {x: 0.5, y: 0.5, z: 0.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 0.7
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceBoatBody
+    partsThatAppearInSecondCarouselPart: 0f000000
+    partsThatAppaerInThirdCarouselPart: 100000002000000042000000330000003f00000014000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.5
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_BuggySiren
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_BuggySiren.prefab
+    uniqueID: 13
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.7
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselNormalScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselSelectedScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselPreviewScale: {x: 4.6, y: 4.6, z: 4.6}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 404, y: 3171, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceBuggySiren
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 05000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: GUIAttachmentSiren
+    _altParts: []
+  - _resourceString: Wheels/Wheel_Normal
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_Normal.prefab
+    uniqueID: 9
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.83
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 2, y: 2, z: 2}
+    carouselSelectedScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceBuggyWheels
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Water/Attachment_PoliceJetskiEngine
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Water/Attachment_PoliceJetskiEngine.prefab
+    uniqueID: 19
+    slotType: 4
+    connectionType: 3
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 0.4
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselNormalScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselSelectedScale: {x: 2.6, y: 2.6, z: 2.6}
+    carouselPreviewScale: {x: 5, y: 5, z: 5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceJetskiEngine
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_PoliceBuggy
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_PoliceBuggy.prefab
+    uniqueID: 2
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.02
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.8
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceBuggyBody
+    partsThatAppearInSecondCarouselPart: 090000000a0000000b000000210000004400000035000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d000000420000003f00000014000000100000000800000033000000
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_FireEngine
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_FireEngine.prefab
+    uniqueID: 1
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 2.05
+    unlockWeight: 1
+    minimumLevelToUnlock: 10
+    brickBagRewardScale: {x: 0.14, y: 0.14, z: 0.14}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 0.8, y: 0.8, z: 0.8}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.FireEngineBody
+    partsThatAppearInSecondCarouselPart: 090000000a0000000b0000002100000044000000350000003600000037000000
+    partsThatAppaerInThirdCarouselPart: 080000000c0000000d0000001e0000001f00000020000000420000003f00000014000000100000003800000039000000330000003d000000
+    _negatedObstacles: 03000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_4x4
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_4x4.prefab
+    uniqueID: 5
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.45
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.4x4Body
+    partsThatAppearInSecondCarouselPart: 090000000a0000000b000000210000004400000035000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d000000420000003f0000001400000010000000080000001e000000380000003900000033000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Water/Body_PoliceJetski
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Water/Body_PoliceJetski.prefab
+    uniqueID: 18
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 1.2
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1.4, y: 1.4, z: 1.4}
+    carouselSelectedScale: {x: 1.6, y: 1.6, z: 1.6}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceJetskiBody
+    partsThatAppearInSecondCarouselPart: 13000000
+    partsThatAppaerInThirdCarouselPart: 14000000200000004200000033000000
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_WaterJet
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_WaterJet.prefab
+    uniqueID: 6
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.32
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.43, y: 0.43, z: 0.43}
+    carouselNormalScale: {x: 1.6, y: 1.6, z: 1.6}
+    carouselSelectedScale: {x: 1.8, y: 1.8, z: 1.8}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2992, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.WaterCannon
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 06000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached: AttachmentHose
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_PoliceSiren
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_PoliceSiren.prefab
+    uniqueID: 12
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.7
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselNormalScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselSelectedScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselPreviewScale: {x: 4.6, y: 4.6, z: 4.6}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 404, y: 3171, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceCarSiren
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 05000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: GUIAttachmentSiren
+    _altParts: []
+  - _resourceString: Wheels/Wheel_Speed
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_Speed.prefab
+    uniqueID: 10
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.83
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 2, y: 2, z: 2}
+    carouselSelectedScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.PoliceCarWheels
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_Large
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_Large.prefab
+    uniqueID: 11
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.83
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 2, y: 2, z: 2}
+    carouselSelectedScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.4x4Wheels
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 00000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_MediumRotorBlades
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_MediumRotorBlades.prefab
+    uniqueID: 8
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 0100000003000000
+    carouselHeightOffset: 0.3
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.168, y: 0.168, z: 0.168}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 274, y: 2781.1, z: -679}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.MediumRotorBlades
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 02000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: AttachmentHelicopter
+    _altParts: []
+  - _resourceString: Bodies/Water/Body_FloatingTyre
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Water/Body_FloatingTyre.prefab
+    uniqueID: 17
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 1.27
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.26, y: 0.26, z: 0.26}
+    carouselNormalScale: {x: 1.7, y: 1.7, z: 1.7}
+    carouselSelectedScale: {x: 1.9, y: 1.9, z: 1.9}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.8
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.TyreBody
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_MediumRotorBlade
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_MediumRotorBlade.prefab
+    uniqueID: 24
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.3
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.105018, y: 0.105018, z: 0.105018}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.MediumRotorBlades
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_PoliceHelicopter
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_PoliceHelicopter.prefab
+    uniqueID: 21
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.141413, y: 0.141413, z: 0.141413}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.PoliceHelicopterBody
+    partsThatAppearInSecondCarouselPart: 18000000
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.2
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_SmallRotorBlade
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_SmallRotorBlade.prefab
+    uniqueID: 25
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.3
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.168, y: 0.168, z: 0.168}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.SmallRotorBlades
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_SearchLights
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_SearchLights.prefab
+    uniqueID: 27
+    slotType: 3
+    connectionType: 10
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.7
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselNormalScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselSelectedScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 330, y: 3467.6, z: 1971}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.SmallHeliSearchLights
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1304775533434467, guid: d3d4b2eed36967440b4893edd54804fc, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_SmallPoliceHelicopter
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_SmallPoliceHelicopter.prefab
+    uniqueID: 22
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1631774, y: 0.1631774, z: 0.1631774}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.SmallPoliceHelicopterBody
+    partsThatAppearInSecondCarouselPart: 1900000018000000
+    partsThatAppaerInThirdCarouselPart: 1b000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_HotAirBalloonBasket
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_HotAirBalloonBasket.prefab
+    uniqueID: 23
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.43
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 0.7, y: 0.7, z: 0.7}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.BalloonBasket
+    partsThatAppearInSecondCarouselPart: 1a00000018000000190000002f00000048000000
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.5
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_Balloon
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_Balloon.prefab
+    uniqueID: 26
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: -1.1
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.08440914, y: 0.08440914, z: 0.08440914}
+    carouselNormalScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselSelectedScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.Balloon
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_FireQuad
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_FireQuad.prefab
+    uniqueID: 28
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.59
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.8
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.FireBuggyBody
+    partsThatAppearInSecondCarouselPart: 090000000a0000000b000000210000004400000035000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d000000420000003f0000001400000033000000
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_QuadSiren
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_QuadSiren.prefab
+    uniqueID: 31
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.31
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselNormalScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselSelectedScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 301, y: 3199.6, z: 851}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.FireQuadSiren
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 05000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: GUIAttachmentSiren
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_FireEngineLadder
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_FireEngineLadder.prefab
+    uniqueID: 30
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.56
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.09521887, y: 0.09521887, z: 0.09521887}
+    carouselNormalScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselSelectedScale: {x: 0.9, y: 0.9, z: 0.9}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 352, y: 3096.7, z: 910.6}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.FireEngineLadder
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_HotDogStand
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_HotDogStand.prefab
+    uniqueID: 29
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.46
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.8
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.HotDogStand
+    partsThatAppearInSecondCarouselPart: 21000000090000000a0000000b0000004400000035000000
+    partsThatAppaerInThirdCarouselPart: 2000000014000000420000001f0000000c0000000d0000003f0000001000000008000000
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_Small
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_Small.prefab
+    uniqueID: 33
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.83
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 2, y: 2, z: 2}
+    carouselSelectedScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.SmallWheel
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_Parasol
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_Parasol.prefab
+    uniqueID: 32
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.72
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.25, y: 0.25, z: 0.25}
+    carouselNormalScale: {x: 1.7, y: 1.7, z: 1.7}
+    carouselSelectedScale: {x: 1.9, y: 1.9, z: 1.9}
+    carouselPreviewScale: {x: 2, y: 2, z: 2}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 302, y: 3313.36, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.Parasol
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Water/Body_LargeFireBoat
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Water/Body_LargeFireBoat.prefab
+    uniqueID: 34
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 1.32
+    unlockWeight: 1
+    minimumLevelToUnlock: 10
+    brickBagRewardScale: {x: 0.06687101, y: 0.06687101, z: 0.06687101}
+    carouselNormalScale: {x: 0.4, y: 0.4, z: 0.4}
+    carouselSelectedScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselPreviewScale: {x: 0.5, y: 0.5, z: 0.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 0.7
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.FireLargeBoatBody
+    partsThatAppearInSecondCarouselPart: 320000000f000000
+    partsThatAppaerInThirdCarouselPart: 41000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.5
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Water/Attachment_LargeFireBoatBridge
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Water/Attachment_LargeFireBoatBridge.prefab
+    uniqueID: 50
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 0.26
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1, y: 0.1, z: 0.1}
+    carouselNormalScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselSelectedScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.FireBoatCabin
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_WaterCannonArm
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_WaterCannonArm.prefab
+    uniqueID: 65
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.25
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.09593482, y: 0.09593482, z: 0.09593482}
+    carouselNormalScale: {x: 0.5, y: 0.5, z: 0.5}
+    carouselSelectedScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: -409.7, y: 3109, z: 1171.7}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.WaterCannonArm
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 06000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: AttachmentHose
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_HovercraftPropeller
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_HovercraftPropeller.prefab
+    uniqueID: 51
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 030000000100000002000000
+    carouselHeightOffset: 1.29
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.2267221, y: 0.2267221, z: 0.2267221}
+    carouselNormalScale: {x: 1.6, y: 1.6, z: 1.6}
+    carouselSelectedScale: {x: 1.8, y: 1.8, z: 1.8}
+    carouselPreviewScale: {x: 2.7, y: 2.7, z: 2.7}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 211.8, y: 3313.55, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.HovercraftEngine
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 04000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: AttachmentJet
+    _altParts: []
+  - _resourceString: Bodies/Water/Body_SmallFireHovercraft
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Water/Body_SmallFireHovercraft.prefab
+    uniqueID: 35
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 2.74
+    unlockWeight: 1
+    minimumLevelToUnlock: 10
+    brickBagRewardScale: {x: 0.1437058, y: 0.1437058, z: 0.1437058}
+    carouselNormalScale: {x: 1.3, y: 1.3, z: 1.3}
+    carouselSelectedScale: {x: 1.5, y: 1.5, z: 1.5}
+    carouselPreviewScale: {x: 1.3, y: 1.3, z: 1.3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 0.7
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.SmallFireHovercraftBody
+    partsThatAppearInSecondCarouselPart: 33000000
+    partsThatAppaerInThirdCarouselPart: 0600000033000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Water/Body_SmallRib
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Water/Body_SmallRib.prefab
+    uniqueID: 36
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 2.81
+    unlockWeight: 1
+    minimumLevelToUnlock: 10
+    brickBagRewardScale: {x: 0.1785254, y: 0.1785254, z: 0.1785254}
+    carouselNormalScale: {x: 1.3, y: 1.3, z: 1.3}
+    carouselSelectedScale: {x: 1.5, y: 1.5, z: 1.5}
+    carouselPreviewScale: {x: 1.3, y: 1.3, z: 1.3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 0.7
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.SmallYellowRibBody
+    partsThatAppearInSecondCarouselPart: 31000000
+    partsThatAppaerInThirdCarouselPart: 42000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Water/Attachment_SmallOutboardMotor
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Water/Attachment_SmallOutboardMotor.prefab
+    uniqueID: 49
+    slotType: 4
+    connectionType: 3
+    vehicleTypeCategories: 03000000
+    carouselHeightOffset: 0.73
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselNormalScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselSelectedScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselPreviewScale: {x: 5, y: 5, z: 5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.SmallOutboardMotor
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_MiniSiren
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_MiniSiren.prefab
+    uniqueID: 66
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.8
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselNormalScale: {x: 4.2, y: 4.2, z: 4.2}
+    carouselSelectedScale: {x: 4.4, y: 4.4, z: 4.4}
+    carouselPreviewScale: {x: 5, y: 5, z: 5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 381.7, y: 3218.96, z: 1621.5}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.MiniSiren
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 05000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached: GUIAttachmentSiren
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_Spotlight
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_Spotlight.prefab
+    uniqueID: 16
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.12
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.2769133, y: 0.2769133, z: 0.2769133}
+    carouselNormalScale: {x: 1.5, y: 1.5, z: 1.5}
+    carouselSelectedScale: {x: 1.7, y: 1.7, z: 1.7}
+    carouselPreviewScale: {x: 2, y: 2, z: 2}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 371, y: 3289.2, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.Spotlight
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 08000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_LargeRotorBlade_Explorer
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_LargeRotorBlade_Explorer.prefab
+    uniqueID: 70
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.69
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1114678, y: 0.1114678, z: 0.1114678}
+    carouselNormalScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselSelectedScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.LargeRotorBlades
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_LargeFireHelicopter
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_LargeFireHelicopter.prefab
+    uniqueID: 45
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: -0.62
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.06741817, y: 0.06741817, z: 0.06741817}
+    carouselNormalScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselSelectedScale: {x: 0.9, y: 0.9, z: 0.9}
+    carouselPreviewScale: {x: 0.7, y: 0.7, z: 0.7}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.LargeFireHelicopterBody
+    partsThatAppearInSecondCarouselPart: 2f0000001800000019000000
+    partsThatAppaerInThirdCarouselPart: 3e0000003f000000
+    _negatedObstacles: 07000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.6
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_LargeHelicopterEngine
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_LargeHelicopterEngine.prefab
+    uniqueID: 62
+    slotType: 3
+    connectionType: 11
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.2
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1.7, y: 1.7, z: 1.7}
+    carouselSelectedScale: {x: 1.9, y: 1.9, z: 1.9}
+    carouselPreviewScale: {x: 2.5, y: 2.5, z: 2.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 231, y: 3340.4, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.HelicopterEngine
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1836572668780294, guid: ad54c7faf9fe0374abb292ce71fb4f6e, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_SmallFireHelicopter
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_SmallFireHelicopter.prefab
+    uniqueID: 46
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: -0.04
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1254, y: 0.1254, z: 0.1254}
+    carouselNormalScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselSelectedScale: {x: 0.9, y: 0.9, z: 0.9}
+    carouselPreviewScale: {x: 0.7, y: 0.7, z: 0.7}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.SmallFireHelicopterBody
+    partsThatAppearInSecondCarouselPart: 19000000
+    partsThatAppaerInThirdCarouselPart: 3f0000003e000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.35
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_WaterCannon
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_WaterCannon.prefab
+    uniqueID: 63
+    slotType: 3
+    connectionType: 10
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.7
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.43, y: 0.43, z: 0.43}
+    carouselNormalScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselSelectedScale: {x: 2.6, y: 2.6, z: 2.6}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 389.1, y: 3530.9, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.WaterCannon
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 06000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached: AttachmentHose
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_ExplorerHelicopter
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_ExplorerHelicopter.prefab
+    uniqueID: 37
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.73
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.08513087, y: 0.08513087, z: 0.08513087}
+    carouselNormalScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselSelectedScale: {x: 0.9, y: 0.9, z: 0.9}
+    carouselPreviewScale: {x: 0.7, y: 0.7, z: 0.7}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.ExplorerHelicopterBody
+    partsThatAppearInSecondCarouselPart: 460000001800000019000000
+    partsThatAppaerInThirdCarouselPart: 3e0000003f000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.5
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_LargeRotorBlade
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_LargeRotorBlade.prefab
+    uniqueID: 47
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.69
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1114678, y: 0.1114678, z: 0.1114678}
+    carouselNormalScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselSelectedScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.LargeRotorBlades
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_DoubleLargeRotorBlades
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_DoubleLargeRotorBlades.prefab
+    uniqueID: 48
+    slotType: 4
+    connectionType: 12
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 1.23
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1114678, y: 0.1114678, z: 0.1114678}
+    carouselNormalScale: {x: 0.6, y: 0.6, z: 0.6}
+    carouselSelectedScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.DoubleLargeRotorBlades
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1990767081812583, guid: c299c23b0587f9a4ebb5200229131fdf, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_ExplorerChinook
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_ExplorerChinook.prefab
+    uniqueID: 38
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.43
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.06603017, y: 0.06603017, z: 0.06603017}
+    carouselNormalScale: {x: 0.45, y: 0.45, z: 0.45}
+    carouselSelectedScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselPreviewScale: {x: 0.45, y: 0.45, z: 0.45}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.ExplorerChinook
+    partsThatAppearInSecondCarouselPart: 30000000460000001800000019000000
+    partsThatAppaerInThirdCarouselPart: 3f0000003e000000
+    _negatedObstacles: 07000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 2
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_ExplorerUAV
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_ExplorerUAV.prefab
+    uniqueID: 39
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 1.02
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1.2, y: 1.2, z: 1.2}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.ExplorerUAVBody
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart: 3f000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_RearDigger
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_RearDigger.prefab
+    uniqueID: 57
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.34
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.2674486, y: 0.2674486, z: 0.2674486}
+    carouselNormalScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselSelectedScale: {x: 1.5, y: 1.5, z: 1.5}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 306.79, y: 3071.5, z: 1130}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.Thing
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_Explorer4X4
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_Explorer4X4.prefab
+    uniqueID: 41
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.29
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1430648, y: 0.1430648, z: 0.1430648}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.Explorer4x4Body
+    partsThatAppearInSecondCarouselPart: 440000000b000000090000000a00000021000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d000000420000003f000000140000001000000008000000380000003900000033000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_OffRoad
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_OffRoad.prefab
+    uniqueID: 68
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.83
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 2, y: 2, z: 2}
+    carouselSelectedScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.OffRoadWheels
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 00000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_Lifter
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_Lifter.prefab
+    uniqueID: 58
+    slotType: 3
+    connectionType: 8
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.79
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.17193, y: 0.17193, z: 0.17193}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 163.1, y: 3329, z: 671.2}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.Lifter
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_ExplorerLifter
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_ExplorerLifter.prefab
+    uniqueID: 42
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.71
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.ExplorerLifterBody
+    partsThatAppearInSecondCarouselPart: 440000000b00000035000000
+    partsThatAppaerInThirdCarouselPart: 3a0000001f000000200000000c0000000d000000420000003f00000014000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_ExplorerTruck
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_ExplorerTruck.prefab
+    uniqueID: 40
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.49
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.18, y: 0.18, z: 0.18}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.ExplorerTruck
+    partsThatAppearInSecondCarouselPart: 440000000b000000090000000a0000002100000035000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d000000420000003f000000140000001000000008000000380000003900000033000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_ExplorerArm
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_ExplorerArm.prefab
+    uniqueID: 56
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.71
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1700955, y: 0.1700955, z: 0.1700955}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 414.7, y: 3323.8, z: 1098.4}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.ExplorerArm
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_ExplorerBigDigger
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_ExplorerBigDigger.prefab
+    uniqueID: 69
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.47
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.138136, y: 0.138136, z: 0.138136}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 0.75, y: 0.75, z: 0.75}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.ExplorerBigDiggerBody
+    partsThatAppearInSecondCarouselPart: 37000000
+    partsThatAppaerInThirdCarouselPart: 3c000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_BigExplorerTracks
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_BigExplorerTracks.prefab
+    uniqueID: 55
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.09
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1597633, y: 0.1597633, z: 0.1597633}
+    carouselNormalScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselSelectedScale: {x: 1, y: 1, z: 1}
+    carouselPreviewScale: {x: 1.5, y: 1.5, z: 1.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.BigExplorerTracks
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 0000000009000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_LargeDiggerArm
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_LargeDiggerArm.prefab
+    uniqueID: 60
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.67
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1592461, y: 0.1592461, z: 0.1592461}
+    carouselNormalScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselSelectedScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: -58, y: 3075, z: 555.3}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.LargeDiggerArm
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_MiniDiggerArm
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_MiniDiggerArm.prefab
+    uniqueID: 59
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 0.37
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1459266, y: 0.1459266, z: 0.1459266}
+    carouselNormalScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselSelectedScale: {x: 0.9, y: 0.9, z: 0.9}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 161, y: 3069, z: 878}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.MiniDiggerArm
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_ExplorerMiniDigger
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_ExplorerMiniDigger.prefab
+    uniqueID: 43
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.9
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1165385, y: 0.1165385, z: 0.1165385}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 0.7568249, y: 0.7568249, z: 0.7568249}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.ExplorerMiniDiggerBody
+    partsThatAppearInSecondCarouselPart: 36000000
+    partsThatAppaerInThirdCarouselPart: 3b00000006000000080000000c0000000d000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_ExplorerTracks
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_ExplorerTracks.prefab
+    uniqueID: 54
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.09
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.1931075, y: 0.1931075, z: 0.1931075}
+    carouselNormalScale: {x: 0.8, y: 0.8, z: 0.8}
+    carouselSelectedScale: {x: 1, y: 1, z: 1}
+    carouselPreviewScale: {x: 1.5, y: 1.5, z: 1.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.ExplorerTracks
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 0000000009000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_MiniExplorerTracks
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_MiniExplorerTracks.prefab
+    uniqueID: 53
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.09
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 1.4, y: 1.4, z: 1.4}
+    carouselSelectedScale: {x: 1.6, y: 1.6, z: 1.6}
+    carouselPreviewScale: {x: 1.5, y: 1.5, z: 1.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.MiniExplorerTracks
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 0000000009000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_ExplorerMiniTractor
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_ExplorerMiniTractor.prefab
+    uniqueID: 44
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.86
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.2, y: 0.2, z: 0.2}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.ExplorerMiniTractorBody
+    partsThatAppearInSecondCarouselPart: 09000000210000000a000000350000000b00000044000000
+    partsThatAppaerInThirdCarouselPart: 1f000000200000000c0000000d00000038000000390000003d00000042000000330000003f000000100000000800000014000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_LifterArm
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_LifterArm.prefab
+    uniqueID: 61
+    slotType: 3
+    connectionType: 2
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.4
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.14, y: 0.14, z: 0.14}
+    carouselNormalScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselSelectedScale: {x: 0.9, y: 0.9, z: 0.9}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: -188, y: 3337.7, z: 1126}
+    partIsAvailable: 1
+    localisationKey: VehiclePiece.LifterArm
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_PlaneWings
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_PlaneWings.prefab
+    uniqueID: 72
+    slotType: 4
+    connectionType: 9
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.3
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.168, y: 0.168, z: 0.168}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.PrivatePlaneWings
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1348796700372428, guid: 8cf84e936b3003a4f905809232de515d, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_Plane
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_Plane.prefab
+    uniqueID: 71
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 1
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 0.5, y: 0.5, z: 0.5}
+    carouselSelectedScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselPreviewScale: {x: 0.6, y: 0.6, z: 0.6}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.PrivatePlaneBody
+    partsThatAppearInSecondCarouselPart: 48000000
+    partsThatAppaerInThirdCarouselPart: 490000003e000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 2.2
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_PlaneEngines
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_PlaneEngines.prefab
+    uniqueID: 73
+    slotType: 3
+    connectionType: 11
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.2
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1.7, y: 1.7, z: 1.7}
+    carouselSelectedScale: {x: 1.9, y: 1.9, z: 1.9}
+    carouselPreviewScale: {x: 2.5, y: 2.5, z: 2.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: -207, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.PrivatePlaneEngine
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1589260971231625, guid: b7f9ee5a09668da43b5d9a465b8342ac, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_WarningLight
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_WarningLight.prefab
+    uniqueID: 76
+    slotType: 3
+    connectionType: 11
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: -0.44
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselNormalScale: {x: 1.4, y: 1.4, z: 1.4}
+    carouselSelectedScale: {x: 1.6, y: 1.6, z: 1.6}
+    carouselPreviewScale: {x: 2, y: 2, z: 2}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 51, y: 3172, z: 1167.4}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.WarningLight
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 05000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_SignBuggy
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_SignBuggy.prefab
+    uniqueID: 74
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.54
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.8
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.FollowMeBody
+    partsThatAppearInSecondCarouselPart: 4b000000
+    partsThatAppaerInThirdCarouselPart: 4c000000
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_BiplaneWings
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_BiplaneWings.prefab
+    uniqueID: 78
+    slotType: 4
+    connectionType: 9
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 1.19
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.168, y: 0.168, z: 0.168}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.BiPlaneWings
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1593820451728585, guid: 742df963aa50e5d4683710e77cc8c365, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_Biplane
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_Biplane.prefab
+    uniqueID: 77
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 1
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 0.5, y: 0.5, z: 0.5}
+    carouselSelectedScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselPreviewScale: {x: 0.6, y: 0.6, z: 0.6}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.BiPlaneBody
+    partsThatAppearInSecondCarouselPart: 4e000000
+    partsThatAppaerInThirdCarouselPart: 4f000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.2
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_StuntBar
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_StuntBar.prefab
+    uniqueID: 79
+    slotType: 3
+    connectionType: 1
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.26
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.65, y: 0.65, z: 0.65}
+    carouselNormalScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselSelectedScale: {x: 2.4, y: 2.4, z: 2.4}
+    carouselPreviewScale: {x: 4.6, y: 4.6, z: 4.6}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: -61.3, y: 2815.2, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.StuntBar
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Attachments/Air/Attachment_JetWings
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Attachments/Air/Attachment_JetWings.prefab
+    uniqueID: 81
+    slotType: 4
+    connectionType: 9
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 0.3
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.168, y: 0.168, z: 0.168}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 2874, z: -679}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.JetWings
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1316370852509908, guid: 88bf81e46910d2f48a0c5e949e10942b, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Air/Body_JetPlane
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Air/Body_JetPlane.prefab
+    uniqueID: 71
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 02000000
+    carouselHeightOffset: 1
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 0.5, y: 0.5, z: 0.5}
+    carouselSelectedScale: {x: 0.7, y: 0.7, z: 0.7}
+    carouselPreviewScale: {x: 0.6, y: 0.6, z: 0.6}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.5
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.JetPlaneBody
+    partsThatAppearInSecondCarouselPart: 5100000048000000
+    partsThatAppaerInThirdCarouselPart: 52000000490000003e000000
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1.3
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: SpecialAbilities/SpecialAbility_JetEngines
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/SpecialAbilities/SpecialAbility_JetEngines.prefab
+    uniqueID: 82
+    slotType: 3
+    connectionType: 11
+    vehicleTypeCategories: 010000000200000003000000
+    carouselHeightOffset: 1.2
+    unlockWeight: 5
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1.7, y: 1.7, z: 1.7}
+    carouselSelectedScale: {x: 1.9, y: 1.9, z: 1.9}
+    carouselPreviewScale: {x: 2.5, y: 2.5, z: 2.5}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: -285.39, y: 3069, z: 663.4}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.JetEngine
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 1463993339225160, guid: e219f646241437143b6731bd970e0246, type: 2}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 1
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_LuggageCarrier
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_LuggageCarrier.prefab
+    uniqueID: 83
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.54
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.8
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.LuggageCarrierBody
+    partsThatAppearInSecondCarouselPart: 54000000
+    partsThatAppaerInThirdCarouselPart: 4c000000
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_LuggageCarrier
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_LuggageCarrier.prefab
+    uniqueID: 84
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.83
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 2, y: 2, z: 2}
+    carouselSelectedScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.LuggageCarrierWheel
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Bodies/Land/Body_StretchLimo
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Bodies/Land/Body_StretchLimo.prefab
+    uniqueID: 85
+    slotType: 1
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 1.54
+    unlockWeight: 1
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.22, y: 0.22, z: 0.22}
+    carouselNormalScale: {x: 1, y: 1, z: 1}
+    carouselSelectedScale: {x: 1.2, y: 1.2, z: 1.2}
+    carouselPreviewScale: {x: 1, y: 1, z: 1}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1.8
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.LimoBody
+    partsThatAppearInSecondCarouselPart: 0a000000
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles: 01000000
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+  - _resourceString: Wheels/Wheel_Mini
+    _absoluteString: Assets/Prefabs/Vehicles/VehiclePieces/Resources/Wheels/Wheel_Mini.prefab
+    uniqueID: 75
+    slotType: 2
+    connectionType: 0
+    vehicleTypeCategories: 01000000
+    carouselHeightOffset: 0.83
+    unlockWeight: 10
+    minimumLevelToUnlock: 0
+    brickBagRewardScale: {x: 0.27, y: 0.27, z: 0.27}
+    carouselNormalScale: {x: 2, y: 2, z: 2}
+    carouselSelectedScale: {x: 2.2, y: 2.2, z: 2.2}
+    carouselPreviewScale: {x: 3, y: 3, z: 3}
+    completedBuildScale: {x: 1, y: 1, z: 1}
+    _completedCameraZoomFactor: 1
+    carouselInfoPanelCameraPos: {x: 0, y: 3069, z: 1219}
+    partIsAvailable: 0
+    localisationKey: VehiclePiece.FollowMeWheel
+    partsThatAppearInSecondCarouselPart:
+    partsThatAppaerInThirdCarouselPart:
+    _negatedObstacles:
+    turbulenceToleranceOverride: -1
+    secondaryFlippedPart: {fileID: 0}
+    _minigameCamDistScale: 1
+    _animateWhenAttached: 0
+    _soundToPlayOnAttached:
+    _altParts: []
+--- !u!114 &37
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7705147fc655112faf3ae341c0b6a18d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &38
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: badfb094ea32e6613cb0941d48d837f6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends: []
+  initialiseGameSceneAfterScreenLoad: 1
+  dontDestroyOnLoad: 1
+  emulateLowMemInEditor: 0
+  screensToLoad:
+  - screenBase: {fileID: 114322318158848377, guid: ae66f30abcf4c7c4f81ac5ef3259aacf, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114819218428960288, guid: 85be108137176b84e888ef7a2484efc9, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114958144208275854, guid: 46c7985edf3bca2409273ea8ba0ee32a, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114366311381720035, guid: 0ce9f5ea4ec8a1e43981b468c7e91ed9, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114560404879009788, guid: e747dd646f28f454fb50478cfecfee3e, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114585636161849588, guid: 06174ea0b8dac5d4c902fb5408e0d180, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114800017173598749, guid: f83a01718b53c0445a7ec815e1c8c698, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114827093036327021, guid: 49f197c83aedbd440871d6f0a9cf1f57, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114427643436163429, guid: d78e6b565e592a94ea062bb94a9dc98e, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114043713877523498, guid: 5ab739ce19143464593d17ba6b439394, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114523261749165151, guid: 1c60aa690669f2e43842dc3789cba90c, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114231907227884855, guid: 0e9cadaa6dd571740a829c64a9c026af, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114158967755981039, guid: 98a5bcdf3850bf841bcf244fd80edaf5, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114580080994972594, guid: 9df5bff13b4628f4ca5fbd93403a2eb4, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114782565050850482, guid: aa67050138595da4f8233c72102190f8, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114230378583623478, guid: 1658657f035ea9e4590f72c667bc08e7, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114576001494408653, guid: a3fae3c01eabd3449a47f6affac9b9f8, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114605903648873784, guid: 5a837e019258c674ba25a05900df1128, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114197025231289630, guid: 293819e4cc73b0845a6d96aba635d273, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114765584298590071, guid: 95fac85ad23538d4db819daf4aeb86e1, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114074800897600641, guid: 30596b1e533d99f4f9b6bc61e61c74c3, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114617556576960025, guid: 9f8d3d18e6dca6343b35a68ec25f50dd, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114769004419365500, guid: 14a13c8ed07e7764688fc84a63b90526, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114588422533307914, guid: 1ed7321591d535544b096f9b780612e6, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114084923855626094, guid: 55ef4fad5ee31224d8ba112470269243, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114957470457903195, guid: dac309e8760e2784c9b40a96ca6f09ab, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114353829906345123, guid: d45a2c0a00b57af4ea61d44f0971dd0b, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114773722485811927, guid: 3bb6573acff2c3241bed08691cd251c1, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114359583750363649, guid: 5f4bf939e4542b441a58706995000abf, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114319566870866920, guid: 725f9d2d6202bfd4c8bb40b405a9d1e8, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114830359299458790, guid: db9952706669304429ad92aefe6f50c2, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114637735381941450, guid: d378f3db0d0e801408ec129cdf71f00f, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114407434939099580, guid: 3b66687175357f149bac9f7c0d223fcf, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114173629055513582, guid: 9d157634f1765a6418577d14c5025795, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114901393859419242, guid: a87f47936f3837a4ca23acacc5e59dd6, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114533137941583944, guid: 06626b536114fe046bbdbe632893fd12, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114334873639455858, guid: af3a74efeabf7a14c88dc39a540ac765, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114777568303760125, guid: f69b1cb1cc7ae4e448f855c7017a07bc, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114731844182290532, guid: 7704fb7bc3122e64cb2762affc363ace, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114490962598616779, guid: 970ec043adc628b4c80e5059e8187487, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114047815421295173, guid: e5d37d3adba32be4fa77c556e5c45cea, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114669498406470927, guid: c9290903979ca864fb7e424679099b15, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114582120695494348, guid: 8a04aeb6e4292ab4690b58f5c5437ca6, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114237256498325751, guid: f7c93e57eebe00f44af9d479f21c4db9, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114693016513635560, guid: 522bf75f34824494abdc4220e148b05f, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114506794828767417, guid: 8c5d3b0115d8f6c40959420fff9567d9, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114650574967386634, guid: bdbf02091b60eb44daa3f2c6fccff664, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114407003343454309, guid: bc2d154739649a74c9e031a65611684f, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114175026630631919, guid: 451c425e222c3ab4f8c5b8401e8ebe9f, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114913631856633440, guid: db8b6758337c8974caa8e6819be4fd09, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114710032911980577, guid: 2a40d8ec7133559449baf0a6b7a25fe9, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114613766473494578, guid: ccee6fe1b340d744cacbd5b4175849c9, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114973259446633395, guid: e454ded39e3e06c42942ac0cac104148, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114560896715045131, guid: 6e437a207ae49eb41b9f3aa2be31ff63, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114034002953403821, guid: 073881dc89148c94597e27e670418a63, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114353364171001765, guid: 09a5f9e6a9b13ec41bcc5f88d5219f08, type: 2}
+    immediatelyShowOnLoad: 0
+  - screenBase: {fileID: 114371521309659512, guid: 54a67df3adc7c134c8d47571b2fe81c5, type: 2}
+    immediatelyShowOnLoad: 0
+  showScreens: 1
+--- !u!114 &39
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ff7181122fe1f3f3c5f0a73d90a56b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 41}
+  _activeOnAndroid: 1
+  _activeOnIOS: 1
+  _activeOnWeb: 1
+  _debugIsAuthenticated: 0
+--- !u!114 &40
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3948f07818d33d526b864a7e082535, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  numInitialGoldChests: 5
+  rewardChestPhase: 0
+  rewardTiers: 0a00000019000000230000003a000000
+  priorityUnlocks: 080000000b000000200000000900000019000000
+--- !u!114 &41
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d489b11624af4c90c174d99c5261d0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _initDepends:
+  - {fileID: 38}
+  _gameNum: 23
+  _version: 1
+--- !u!114 &42
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b69a1166a658d92cc3bb32a52ffecc7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &43
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6102482a1d4200483ac7da01966102bb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugAreaRelRect:
+    serializedVersion: 2
+    x: 0
+    y: 0.5
+    width: 1
+    height: 0.5
+  textColor: {r: 0, g: 0, b: 0, a: 1}
+  maxEntries: 10000
+--- !u!114 &44
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5719b8012e88e5ffc93f2fb1a662c784, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _version: 1
+  _gameNum: 23
+  _debugger: {fileID: 0}
+--- !u!114 &45
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3100df685fd188ba8a8168f7319498, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _dailyRewards:
+  - _rewards:
+    - _rewardType: 2
+      _brickReward: 25
+  - _rewards:
+    - _rewardType: 2
+      _brickReward: 50
+  - _rewards:
+    - _rewardType: 2
+      _brickReward: 100
+  - _rewards:
+    - _rewardType: 2
+      _brickReward: 250
+  - _rewards:
+    - _rewardType: 0
+      _brickReward: 500
+--- !u!114 &46
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efea37c3e6471c158fcf82bcaa31eae, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  minigameData:
+  - region: 1
+    minigameType: 1
+    minigameCategory: 1
+    minigameVehicle: 1
+    minigameName: Minigame.Police1.Name
+    minigameDescription: Minigame.Police1.Text
+    minigameSceneName: Minigame_City
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation: CutsceneCatchTheCrooks
+    menuBackingTexture: {fileID: 2800000, guid: 72820d0b602e503488a3249191e2f4b3, type: 3}
+    minigameTutorialLocation: MinigameTutorialPolicePursuit
+    gameMusic: Downtown
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.PoliceCar
+      bodyPart: 3
+      wheelPart: 10
+      accessoryPart: 12
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 433d27d96980add4d975311e4366dcb8, type: 3}
+    - templateLocalisationID: VehicleTemplate.PoliceBuggy
+      bodyPart: 2
+      wheelPart: 9
+      accessoryPart: 13
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 836d7c28da83f684391c603ec3156afd, type: 3}
+    - templateLocalisationID: VehicleTemplate.RedPickup
+      bodyPart: 5
+      wheelPart: 11
+      accessoryPart: 0
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 2cf7e29df9a0f4c4abad3228b9b85ef8, type: 3}
+  - region: 1
+    minigameType: 2
+    minigameCategory: 1
+    minigameVehicle: 3
+    minigameName: Minigame.Police2.Name
+    minigameDescription: Minigame.Police2.Text
+    minigameSceneName: Minigame_Sea
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation: CutsceneCrookRoundup
+    menuBackingTexture: {fileID: 2800000, guid: d874ce3b76d5c8a4f8883fe5139b374d, type: 3}
+    minigameTutorialLocation: MinigameTutorialCrookRoundup
+    gameMusic: Sea
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.LargePoliceBoat
+      bodyPart: 14
+      wheelPart: 0
+      accessoryPart: 16
+      attachmentPart: 15
+      templateRender: {fileID: 2800000, guid: a38ac7631bab9e44bbc5be40c64f9be1, type: 3}
+    - templateLocalisationID: VehicleTemplate.PoliceJetski
+      bodyPart: 18
+      wheelPart: 0
+      accessoryPart: 20
+      attachmentPart: 19
+      templateRender: {fileID: 2800000, guid: 16d11eeb2fb42fc45b8d20a955d2d151, type: 3}
+    - templateLocalisationID: VehicleTemplate.Tyre
+      bodyPart: 17
+      wheelPart: 0
+      accessoryPart: 0
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 3303f03f76af7d440a85fbb2f60959d8, type: 3}
+  - region: 1
+    minigameType: 3
+    minigameCategory: 1
+    minigameVehicle: 2
+    minigameName: Minigame.Police3.Name
+    minigameDescription: Minigame.Police3.Text
+    minigameSceneName: Minigame_Sea
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation:
+    menuBackingTexture: {fileID: 2800000, guid: da7bbaf05075c6746828c2c463dfdf18, type: 3}
+    minigameTutorialLocation: MinigameTutorialBalloonChase
+    gameMusic: Sea
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.PoliceHelicopter
+      bodyPart: 21
+      wheelPart: 0
+      accessoryPart: 0
+      attachmentPart: 24
+      templateRender: {fileID: 2800000, guid: de268dc8922c7764b8755b23f161e2eb, type: 3}
+    - templateLocalisationID: VehicleTemplate.SmallPoliceHelicopter
+      bodyPart: 22
+      wheelPart: 0
+      accessoryPart: 27
+      attachmentPart: 25
+      templateRender: {fileID: 2800000, guid: e5974f52dbed7d649a42dc4a4c22ca11, type: 3}
+    - templateLocalisationID: VehicleTemplate.HotAirBalloon
+      bodyPart: 23
+      wheelPart: 0
+      accessoryPart: 0
+      attachmentPart: 26
+      templateRender: {fileID: 2800000, guid: 4c250a03d6f3f794d845c17379c2752d, type: 3}
+  - region: 1
+    minigameType: 4
+    minigameCategory: 2
+    minigameVehicle: 1
+    minigameName: Minigame.Fire1.Name
+    minigameDescription: Minigame.Fire1.Text
+    minigameSceneName: Minigame_City
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation: CutsceneFireFrenzy
+    menuBackingTexture: {fileID: 2800000, guid: 4d20fe87f5b4e3b46b87d31ccdd2d862, type: 3}
+    minigameTutorialLocation: MinigameTutorialFireFrenzy
+    gameMusic: Downtown
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.FireEngine
+      bodyPart: 1
+      wheelPart: 9
+      accessoryPart: 30
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 0fe7d79306afe204d97a684c8d778642, type: 3}
+    - templateLocalisationID: VehicleTemplate.FireQuadBike
+      bodyPart: 28
+      wheelPart: 9
+      accessoryPart: 31
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 70bc5f6409893524ba4311845ebedf3c, type: 3}
+    - templateLocalisationID: VehicleTemplate.HotDogStand
+      bodyPart: 29
+      wheelPart: 33
+      accessoryPart: 32
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: ccc19efdca895214d90bb8bb49c75a01, type: 3}
+  - region: 1
+    minigameType: 5
+    minigameCategory: 2
+    minigameVehicle: 3
+    minigameName: Minigame.Fire2.Name
+    minigameDescription: Minigame.Fire2.Text
+    minigameSceneName: Minigame_Sea
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation:
+    menuBackingTexture: {fileID: 2800000, guid: 76502604a67e20b4580bc13aa716f476, type: 3}
+    minigameTutorialLocation: MinigameTutorialFireOnTheWater
+    gameMusic: Sea
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.LargeFireBoat
+      bodyPart: 34
+      wheelPart: 0
+      accessoryPart: 65
+      attachmentPart: 50
+      templateRender: {fileID: 2800000, guid: 55fd1af9e946dbb43aec898f618a598d, type: 3}
+    - templateLocalisationID: VehicleTemplate.SmallFireHovercraft
+      bodyPart: 35
+      wheelPart: 0
+      accessoryPart: 6
+      attachmentPart: 51
+      templateRender: {fileID: 2800000, guid: b9d2b0bdff8e8894cb8bac44a7487963, type: 3}
+    - templateLocalisationID: VehicleTemplate.FireSmallYellowRib
+      bodyPart: 36
+      wheelPart: 0
+      accessoryPart: 66
+      attachmentPart: 49
+      templateRender: {fileID: 2800000, guid: 27f23cbe93da57748b3e1e6483eeb7e6, type: 3}
+  - region: 1
+    minigameType: 6
+    minigameCategory: 2
+    minigameVehicle: 2
+    minigameName: Minigame.Fire3.Name
+    minigameDescription: Minigame.Fire3.Text
+    minigameSceneName: Minigame_City
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation: CutsceneWaterDump
+    menuBackingTexture: {fileID: 2800000, guid: 2dd5a1e4b287b5e45adbbf7708fdbae9, type: 3}
+    minigameTutorialLocation: MinigameTutorialWaterDump
+    gameMusic: Downtown
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.LargeFireHeli
+      bodyPart: 45
+      wheelPart: 0
+      accessoryPart: 62
+      attachmentPart: 47
+      templateRender: {fileID: 2800000, guid: 9c264e5b571171a4593b45ec33524583, type: 3}
+    - templateLocalisationID: VehicleTemplate.SmallFireHeli
+      bodyPart: 46
+      wheelPart: 0
+      accessoryPart: 63
+      attachmentPart: 25
+      templateRender: {fileID: 2800000, guid: 6dee02fcbc6da2b4eb83f82f80685365, type: 3}
+    - templateLocalisationID: VehicleTemplate.Portaloo
+      bodyPart: 4
+      wheelPart: 0
+      accessoryPart: 0
+      attachmentPart: 25
+      templateRender: {fileID: 2800000, guid: 4dbcc02b3b48e3247baf3c360706562d, type: 3}
+  - region: 2
+    minigameType: 7
+    minigameCategory: 3
+    minigameVehicle: 1
+    minigameName: Minigame.Volcano1.Name
+    minigameDescription: Minigame.Volcano1.Text
+    minigameSceneName: Minigame_Volcano
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation: CutsceneRollinRocks
+    menuBackingTexture: {fileID: 2800000, guid: 9f82b9d73d9456d4d8b658e0f4a5fc65, type: 3}
+    minigameTutorialLocation: MinigameTutorialRollinRocks
+    gameMusic: Volcano
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.ExplorerTruck
+      bodyPart: 40
+      wheelPart: 68
+      accessoryPart: 56
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: ca63f65ca7f0a4c47b3c1e6aa58ce481, type: 3}
+    - templateLocalisationID: VehicleTemplate.ExplorerMiniTractor
+      bodyPart: 44
+      wheelPart: 53
+      accessoryPart: 61
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 07bcbc6263c3f0c4c9d6d94277b7e5c8, type: 3}
+    - templateLocalisationID: VehicleTemplate.ExplorerLifter
+      bodyPart: 42
+      wheelPart: 68
+      accessoryPart: 58
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: d564d3ff780f0f24f8da66ab7220330c, type: 3}
+  - region: 2
+    minigameType: 8
+    minigameCategory: 3
+    minigameVehicle: 1
+    minigameName: Minigame.Volcano2.Name
+    minigameDescription: Minigame.Volcano2.Text
+    minigameSceneName: Minigame_Volcano
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation:
+    menuBackingTexture: {fileID: 2800000, guid: 352d22a9b6b97eb4aa3550132b399937, type: 3}
+    minigameTutorialLocation: MinigameTutorialRockCracker
+    gameMusic: Volcano
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.ExplorerMiniDigger
+      bodyPart: 43
+      wheelPart: 54
+      accessoryPart: 59
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 7124b95036fff6546b70d4a15b7216d7, type: 3}
+    - templateLocalisationID: VehicleTemplate.ExplorerBigDigger
+      bodyPart: 69
+      wheelPart: 55
+      accessoryPart: 60
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 8cd918d13ab1dc945b63f4670a57cb46, type: 3}
+    - templateLocalisationID: VehicleTemplate.Explorer4X4
+      bodyPart: 41
+      wheelPart: 68
+      accessoryPart: 57
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: c526cec928b3b0d4aa0624101042e288, type: 3}
+  - region: 2
+    minigameType: 9
+    minigameCategory: 3
+    minigameVehicle: 2
+    minigameName: Minigame.Volcano3.Name
+    minigameDescription: Minigame.Volcano3.Text
+    minigameSceneName: Minigame_Volcano
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation: CutsceneExplorerEvac
+    menuBackingTexture: {fileID: 2800000, guid: 4200effa94301f7419f5f067256ce517, type: 3}
+    minigameTutorialLocation: MinigameTutorialExplorerEvac
+    gameMusic: Volcano
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.ExplorerHeli
+      bodyPart: 37
+      wheelPart: 0
+      accessoryPart: 0
+      attachmentPart: 70
+      templateRender: {fileID: 2800000, guid: 97ff02846990a904c88c50fd1371f731, type: 3}
+    - templateLocalisationID: VehicleTemplate.ExplorerChinook
+      bodyPart: 38
+      wheelPart: 0
+      accessoryPart: 0
+      attachmentPart: 48
+      templateRender: {fileID: 2800000, guid: 28457f058ae62a84b88c577346dcfda7, type: 3}
+    - templateLocalisationID: VehicleTemplate.ExplorerUAV
+      bodyPart: 39
+      wheelPart: 0
+      accessoryPart: 0
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 7882ee6c2d227684a9bf3a4e9a3417f2, type: 3}
+  - region: 3
+    minigameType: 10
+    minigameCategory: 4
+    minigameVehicle: 2
+    minigameName: Minigame.Airport1.Name
+    minigameDescription: Minigame.Airport1.Text
+    minigameSceneName: Minigame_AirportSky
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation:
+    menuBackingTexture: {fileID: 2800000, guid: 9096da45cad8253408634837700d20c3, type: 3}
+    minigameTutorialLocation: MinigameTutorialAirTravel
+    gameMusic: Airport
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.PrivatePlane
+      bodyPart: 71
+      wheelPart: 0
+      accessoryPart: 73
+      attachmentPart: 72
+      templateRender: {fileID: 2800000, guid: c6fbdc204b79f1043a72de42664db922, type: 3}
+    - templateLocalisationID: VehicleTemplate.JetPlane
+      bodyPart: 80
+      wheelPart: 0
+      accessoryPart: 82
+      attachmentPart: 81
+      templateRender: {fileID: 2800000, guid: a8ec9392c02c6794b8b4d78a8556e6b5, type: 3}
+    - templateLocalisationID: VehicleTemplate.Biplane
+      bodyPart: 77
+      wheelPart: 0
+      accessoryPart: 79
+      attachmentPart: 78
+      templateRender: {fileID: 2800000, guid: fe12c91aa5220a74a8be94f625210387, type: 3}
+  - region: 3
+    minigameType: 11
+    minigameCategory: 4
+    minigameVehicle: 1
+    minigameName: Minigame.Airport2.Name
+    minigameDescription: Minigame.Airport2.Text
+    minigameSceneName: Minigame_City
+    vehicleSelectHint: Minigame.VehicleSelectHint
+    cutsceneFlowLocation:
+    menuBackingTexture: {fileID: 2800000, guid: d8ac67b0e29e6354caab5833a8c1d7b3, type: 3}
+    minigameTutorialLocation: MinigameTutorialGrabTheLuggage
+    gameMusic: Airport
+    vehicleTemplates:
+    - templateLocalisationID: VehicleTemplate.FollowMe
+      bodyPart: 74
+      wheelPart: 75
+      accessoryPart: 76
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 1a8bce789cc5ef042b3621860714e702, type: 3}
+    - templateLocalisationID: VehicleTemplate.LuggageCarrier
+      bodyPart: 83
+      wheelPart: 84
+      accessoryPart: 76
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: ac09c17917b484549a16c03af6017a1a, type: 3}
+    - templateLocalisationID: VehicleTemplate.Limo
+      bodyPart: 85
+      wheelPart: 10
+      accessoryPart: 0
+      attachmentPart: 0
+      templateRender: {fileID: 2800000, guid: 573fa1d2887b8dc4998eb790e60643a7, type: 3}
+--- !u!114 &47
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be68869b640799d729b9e82c742e0cd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  categories: []
+  achievements:
+  - achievementName: CatchTheCrooksWithPoliceCar
+    rulePairs:
+    - valAType: 0
+      valAName: CatchTheCrooksWithPoliceCar
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 150
+  - achievementName: CatchTheCrooksWithPoliceBuggy
+    rulePairs:
+    - valAType: 0
+      valAName: CatchTheCrooksWithBuggy
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 125
+  - achievementName: Collect100StudsSingleMission
+    rulePairs:
+    - valAType: 1
+      valAName: studCountSingleMission
+      rule: 4
+      valBType: 1
+      valBName: CONST100
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 200
+  - achievementName: FireFrenzyWithFireEngine
+    rulePairs:
+    - valAType: 0
+      valAName: FireFrenzyWithFireEngine
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 150
+  - achievementName: FireFrenzyWithFireQuadBike
+    rulePairs:
+    - valAType: 0
+      valAName: FireFrenzyWithFireQuadBike
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 125
+  - achievementName: Collect50StudsSingleMission
+    rulePairs:
+    - valAType: 1
+      valAName: studCountSingleMission
+      rule: 4
+      valBType: 1
+      valBName: CONST50
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 75
+  - achievementName: WaterDumpWithLargeFireHeli
+    rulePairs:
+    - valAType: 0
+      valAName: WaterDumpWithLargeFireHeli
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 150
+  - achievementName: WaterDumpWithSmallFireHeli
+    rulePairs:
+    - valAType: 0
+      valAName: WaterDumpWithSmallFireHeli
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 125
+  - achievementName: Play3PoliceMissions
+    rulePairs:
+    - valAType: 1
+      valAName: numPoliceMissionPlays
+      rule: 4
+      valBType: 1
+      valBName: CONST3
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 225
+  - achievementName: Play3FireMissions
+    rulePairs:
+    - valAType: 1
+      valAName: numFireMissionPlays
+      rule: 4
+      valBType: 1
+      valBName: CONST3
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 225
+  - achievementName: Play3VolcanoMissions
+    rulePairs:
+    - valAType: 1
+      valAName: numVolcanoMissionPlays
+      rule: 4
+      valBType: 1
+      valBName: CONST3
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 225
+  - achievementName: RollinRocksWithExplorerTruck
+    rulePairs:
+    - valAType: 0
+      valAName: RollinRocksWithExplorerTruck
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 150
+  - achievementName: RollinRocksWithMiniTractor
+    rulePairs:
+    - valAType: 0
+      valAName: RollinRocksWithMiniTractor
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 125
+  - achievementName: ExplorerEvacWithExplorerHeli
+    rulePairs:
+    - valAType: 0
+      valAName: ExplorerEvacWithExplorerHeli
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 150
+  - achievementName: ExplorerEvacWithExplorerChinook
+    rulePairs:
+    - valAType: 0
+      valAName: ExplorerEvacWithChinook
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 125
+  - achievementName: Collect500Studs
+    rulePairs:
+    - valAType: 1
+      valAName: studCountMultiMission
+      rule: 4
+      valBType: 1
+      valBName: CONST500
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 250
+  - achievementName: Collect1000Studs
+    rulePairs:
+    - valAType: 1
+      valAName: studCountMultiMission
+      rule: 4
+      valBType: 1
+      valBName: CONST1000
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 300
+  - achievementName: Collect5000Studs
+    rulePairs:
+    - valAType: 1
+      valAName: studCountMultiMission
+      rule: 4
+      valBType: 1
+      valBName: CONST5000
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 450
+  - achievementName: PlayWithPortaloo
+    rulePairs:
+    - valAType: 0
+      valAName: PlayWithPortaloo
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 200
+  - achievementName: PlayWithFloatingTyre
+    rulePairs:
+    - valAType: 0
+      valAName: PlayWithFloatingTyre
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 200
+  - achievementName: PlayWithExplorerUAV
+    rulePairs:
+    - valAType: 0
+      valAName: PlayWithExplorerUAV
+      rule: 0
+      valBType: 0
+      valBName: TRUE
+    completed: 0
+    completedTimeStamp:
+    category:
+    metadata:
+    - key: REWARD
+      data: 200
+  stats:
+    booleans:
+    - statisticName: CatchTheCrooksWithPoliceCar
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: CatchTheCrooksWithBuggy
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: FireFrenzyWithFireEngine
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: FireFrenzyWithFireQuadBike
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: WaterDumpWithLargeFireHeli
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: WaterDumpWithSmallFireHeli
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: RollinRocksWithExplorerTruck
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: RollinRocksWithMiniTractor
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: ExplorerEvacWithExplorerHeli
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: ExplorerEvacWithChinook
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: PlayWithPortaloo
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: PlayWithFloatingTyre
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: PlayWithExplorerUAV
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: TRUE
+      isConst: 1
+      statValue: 1
+      defaultStatValue: 1
+    floats: []
+    integers:
+    - statisticName: studCountSingleMission
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: numPoliceMissionPlays
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: numFireMissionPlays
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: numVolcanoMissionPlays
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: studCountMultiMission
+      isConst: 0
+      statValue: 0
+      defaultStatValue: 0
+    - statisticName: CONST100
+      isConst: 1
+      statValue: 100
+      defaultStatValue: 100
+    - statisticName: CONST50
+      isConst: 1
+      statValue: 50
+      defaultStatValue: 50
+    - statisticName: CONST500
+      isConst: 1
+      statValue: 500
+      defaultStatValue: 500
+    - statisticName: CONST1000
+      isConst: 1
+      statValue: 1000
+      defaultStatValue: 1000
+    - statisticName: CONST5000
+      isConst: 1
+      statValue: 5000
+      defaultStatValue: 5000
+    - statisticName: CONST3
+      isConst: 1
+      statValue: 3
+      defaultStatValue: 3
+    strings: []
+--- !u!114 &48
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c3b46b2afad3a1c9152d700b6ba615, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _numQuestsToPresentSimultaneously: 3
+  _findNewQuestsOnAwake: 0
+  _numQuestsToFindOnAwake: -1
+--- !u!114 &49
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f95cd8516b8ddb1339c72e15df286dd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  debugGoBackInTime: 0

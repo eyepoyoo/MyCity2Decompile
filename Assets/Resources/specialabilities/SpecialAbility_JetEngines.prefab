@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1378122494170752}
+  m_IsPrefabParent: 1
+--- !u!1 &1378122494170752
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4440792796291043}
+  - component: {fileID: 114771171295906419}
+  - component: {fileID: 114715894732040952}
+  m_Layer: 17
+  m_Name: SpecialAbility_JetEngines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4440792796291043
+Transform:
+  m_GameObject: {fileID: 1378122494170752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4744155174279877}
+  - {fileID: 4918032732936699}
+  - {fileID: 4495578465948304}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114771171295906419
+MonoBehaviour:
+  m_GameObject: {fileID: 1378122494170752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2598bf4ee33271147a8f7de4c516d756, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114715894732040952
+MonoBehaviour:
+  m_GameObject: {fileID: 1378122494170752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1340418494578168
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4744155174279877}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4744155174279877
+Transform:
+  m_GameObject: {fileID: 1340418494578168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.32, y: 0, z: -1.024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4440792796291043}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1335627413503215
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4918032732936699}
+  - component: {fileID: 33072178199655584}
+  - component: {fileID: 23699380785126008}
+  - component: {fileID: 65507028061647333}
+  m_Layer: 17
+  m_Name: StuntjetAccessoryLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4918032732936699
+Transform:
+  m_GameObject: {fileID: 1335627413503215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.144}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4440792796291043}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33072178199655584
+MeshFilter:
+  m_GameObject: {fileID: 1335627413503215}
+  m_Mesh: {fileID: 4300000, guid: e4c8bb84fc713314ca1404de338c0f73, type: 2}
+--- !u!23 &23699380785126008
+MeshRenderer:
+  m_GameObject: {fileID: 1335627413503215}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &65507028061647333
+BoxCollider:
+  m_GameObject: {fileID: 1335627413503215}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 76.47073, y: 76.00002, z: 304.0002}
+  m_Center: {x: -38.23536, y: 1.335144E-05, z: -8.392334E-05}
+--- !u!1 &1817684216723372
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4495578465948304}
+  m_Layer: 17
+  m_Name: StuntjetAccessoryRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4495578465948304
+Transform:
+  m_GameObject: {fileID: 1817684216723372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.683, y: -0.004999995, z: -0.053}
+  m_LocalScale: {x: -0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 4253519021357490}
+  m_Father: {fileID: 4440792796291043}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1624298798426149
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4253519021357490}
+  - component: {fileID: 33391204483239387}
+  - component: {fileID: 23542780113651312}
+  - component: {fileID: 65390934137600408}
+  m_Layer: 17
+  m_Name: StuntjetAccessoryRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4253519021357490
+Transform:
+  m_GameObject: {fileID: 1624298798426149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.192093E-05, y: 0, z: -110.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4495578465948304}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33391204483239387
+MeshFilter:
+  m_GameObject: {fileID: 1624298798426149}
+  m_Mesh: {fileID: 4300000, guid: e4c8bb84fc713314ca1404de338c0f73, type: 2}
+--- !u!23 &23542780113651312
+MeshRenderer:
+  m_GameObject: {fileID: 1624298798426149}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &65390934137600408
+BoxCollider:
+  m_GameObject: {fileID: 1624298798426149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 76.47073, y: 76.00002, z: 304.0002}
+  m_Center: {x: -38.23536, y: 1.335144E-05, z: -8.392334E-05}

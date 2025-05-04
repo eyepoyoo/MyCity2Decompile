@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1522889417400699}
+  m_IsPrefabParent: 1
+--- !u!1 &1522889417400699
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4900842657806323}
+  - component: {fileID: 114044919986547359}
+  - component: {fileID: 65611062449938538}
+  - component: {fileID: 114269431064047748}
+  m_Layer: 17
+  m_Name: Attachment_SmallOutboardMotor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4900842657806323
+Transform:
+  m_GameObject: {fileID: 1522889417400699}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -1.629207E-07}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4662649551307952}
+  - {fileID: 4757017605289163}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: -1.866934E-05, z: 180}
+--- !u!114 &114044919986547359
+MonoBehaviour:
+  m_GameObject: {fileID: 1522889417400699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b6ae08333daf44aaefceba9e5abcea, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!65 &65611062449938538
+BoxCollider:
+  m_GameObject: {fileID: 1522889417400699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.76, y: 1.03707, z: 0.8470634}
+  m_Center: {x: 7.590171E-08, y: -0.08697128, z: 0.2329407}
+--- !u!114 &114269431064047748
+MonoBehaviour:
+  m_GameObject: {fileID: 1522889417400699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253b6709de5f41743bcb297e96dff5b8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!1 &1601757896728173
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4662649551307952}
+  m_Layer: 17
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4662649551307952
+Transform:
+  m_GameObject: {fileID: 1601757896728173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4626684958122963}
+  m_Father: {fileID: 4900842657806323}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1347235339029717
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4626684958122963}
+  - component: {fileID: 33541007226695465}
+  - component: {fileID: 23308522737209755}
+  m_Layer: 17
+  m_Name: RaftEngine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4626684958122963
+Transform:
+  m_GameObject: {fileID: 1347235339029717}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -1.629207E-07}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 4662649551307952}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: -1.866934E-05, z: 180}
+--- !u!33 &33541007226695465
+MeshFilter:
+  m_GameObject: {fileID: 1347235339029717}
+  m_Mesh: {fileID: 4300000, guid: 085ec186e787989479922fbd649b5616, type: 2}
+--- !u!23 &23308522737209755
+MeshRenderer:
+  m_GameObject: {fileID: 1347235339029717}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4502db5199d3a514dbd61d6288257f83, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1612366347436021
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4757017605289163}
+  m_Layer: 17
+  m_Name: CentralPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757017605289163
+Transform:
+  m_GameObject: {fileID: 1612366347436021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.249, z: 0.144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4900842657806323}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
